@@ -27,13 +27,6 @@ class VocabularyData {
             sentenceTranslation: wordData.sentenceTranslation,
             difficulty: wordData.difficulty,
             dateAdded: new Date().toISOString(),
-            srsData: {
-                level: 1,
-                nextReview: new Date().toISOString(),
-                totalReviews: 0,
-                correctAnswers: 0,
-                lastReviewed: null
-            },
             tags: wordData.tags || []
         };
         
@@ -55,38 +48,6 @@ class VocabularyData {
     // Get words by difficulty
     getWordsByDifficulty(difficulty) {
         return this.words.filter(word => word.difficulty === difficulty);
-    }
-
-    // Get words due for review
-    getWordsForReview() {
-        const now = new Date();
-        return this.words.filter(word => new Date(word.srsData.nextReview) <= now);
-    }
-
-    // Update word SRS data
-    updateWordSRS(wordId, correct) {
-        const word = this.words.find(w => w.id === wordId);
-        if (!word) return false;
-
-        word.srsData.totalReviews++;
-        word.srsData.lastReviewed = new Date().toISOString();
-
-        if (correct) {
-            word.srsData.correctAnswers++;
-            word.srsData.level = Math.min(word.srsData.level + 1, 10);
-        } else {
-            word.srsData.level = Math.max(word.srsData.level - 1, 1);
-        }
-
-        // Calculate next review date based on SRS algorithm
-        const intervals = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]; // days
-        const daysUntilNext = intervals[word.srsData.level - 1] || 512;
-        const nextReview = new Date();
-        nextReview.setDate(nextReview.getDate() + daysUntilNext);
-        word.srsData.nextReview = nextReview.toISOString();
-
-        this.saveWords();
-        return true;
     }
 
     // Delete a word
@@ -267,14 +228,15 @@ class VocabularyData {
     // Get statistics
     getStatistics() {
         const total = this.words.length;
-        const mastered = this.words.filter(w => w.srsData.level >= 8).length;
-        const dueForReview = this.getWordsForReview().length;
+        const beginnerWords = this.words.filter(w => w.difficulty === 'beginner').length;
+        const intermediateWords = this.words.filter(w => w.difficulty === 'intermediate').length;
+        const advancedWords = this.words.filter(w => w.difficulty === 'advanced').length;
         
         return {
             totalWords: total,
-            masteredWords: mastered,
-            dueForReview: dueForReview,
-            averageLevel: total > 0 ? (this.words.reduce((sum, w) => sum + w.srsData.level, 0) / total).toFixed(1) : 0
+            beginnerWords: beginnerWords,
+            intermediateWords: intermediateWords,
+            advancedWords: advancedWords
         };
     }
 }

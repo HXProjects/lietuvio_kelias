@@ -9,7 +9,6 @@ class VocabularyPage extends BasePage {
         this.currentCard = 0;
         this.ttsClient = null;
         this.ttsServerAvailable = false;
-        this.studySession = { active: false };
         this.currentTopicId = null; // Track current topic for legacy compatibility
     }
 
@@ -121,15 +120,6 @@ class VocabularyPage extends BasePage {
         if (nextBtn) nextBtn.onclick = () => this.nextFlashcard();
         if (prevBtn) prevBtn.onclick = () => this.prevFlashcard();
 
-        // Difficulty feedback
-        document.addEventListener('click', (event) => {
-            const difficultyBtn = event.target.closest('.difficulty-btn');
-            if (difficultyBtn) {
-                const difficulty = parseInt(difficultyBtn.dataset.difficulty);
-                this.handleFeedback(difficulty);
-            }
-        });
-
         // TTS settings
         const ttsSettingsBtn = document.getElementById('tts-settings-btn');
         if (ttsSettingsBtn) {
@@ -188,25 +178,50 @@ class VocabularyPage extends BasePage {
             return;
         }
 
-        const dueWords = this.vocabularyData.getWordsForReview();
+        // Simple flashcard practice without SRS
+        const allWords = this.getCurrentTopicWords();
         
-        if (dueWords.length === 0) {
-            this.showInfo('No words due for review! Try adding new words or come back later.');
+        if (allWords.length === 0) {
+            this.showInfo('No words available for practice. Select a topic first.');
             return;
         }
 
-        this.studySession = {
-            active: true,
-            startTime: new Date(),
-            results: []
-        };
-
-        this.flashcards = dueWords.slice(0, 20); // Limit to 20 words per session
+        this.flashcards = this.shuffleArray(allWords).slice(0, 20); // Limit to 20 words per session
         this.currentCard = 0;
         
         this.showFlashcardMode();
         this.showCurrentFlashcard();
-        this.showSuccess('Study session started! 📚');
+        this.showSuccess('Practice session started! 📚');
+    }
+
+    /**
+     * Get words from current topic
+     */
+    getCurrentTopicWords() {
+        try {
+            if (!this.currentTopicId) {
+                return [];
+            }
+            
+            // For now, return empty array as we don't have vocabulary data loaded
+            // This can be enhanced to fetch from current topic
+            return [];
+        } catch (error) {
+            console.error('Error getting current topic words:', error);
+            return [];
+        }
+    }
+
+    /**
+     * Shuffle array utility
+     */
+    shuffleArray(array) {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
     }
 
     /**
@@ -254,74 +269,11 @@ class VocabularyPage extends BasePage {
     }
 
     /**
-     * Handle difficulty feedback
-     */
-    handleFeedback(difficulty) {
-        if (this.flashcards.length === 0) return;
-
-        const currentWord = this.flashcards[this.currentCard];
-        
-        // Update SRS data
-        if (this.vocabularyData && currentWord) {
-            this.vocabularyData.updateWordDifficulty(currentWord.id, difficulty);
-        }
-
-        // Record session result
-        this.studySession.results.push({
-            word: currentWord,
-            difficulty: difficulty,
-            timestamp: new Date()
-        });
-
-        // Show feedback message
-        const messages = {
-            1: 'Hard - This word will be shown more frequently.',
-            2: 'Medium - Good progress!',
-            3: 'Easy - This word will be reviewed less frequently.'
-        };
-        
-        this.showInfo(messages[difficulty]);
-
-        // Auto-advance to next card
-        setTimeout(() => {
-            this.nextFlashcard();
-        }, 1000);
-    }
-
-    /**
      * End study session
      */
     endStudySession() {
-        if (this.studySession.active) {
-            const sessionDuration = new Date() - this.studySession.startTime;
-            const wordsStudied = this.studySession.results.length;
-            
-            this.showSuccess(`Study session complete! 🎉 Studied ${wordsStudied} words in ${Math.round(sessionDuration / 60000)} minutes.`);
-            
-            // Save session data
-            this.saveStudySession();
-            
-            this.studySession.active = false;
-            this.hideFlashcardMode();
-        }
-    }
-
-    /**
-     * Save study session data
-     */
-    saveStudySession() {
-        try {
-            const sessions = JSON.parse(localStorage.getItem('studySessions') || '[]');
-            sessions.push({
-                date: new Date().toISOString(),
-                wordsStudied: this.studySession.results.length,
-                sessionDuration: new Date() - this.studySession.startTime,
-                results: this.studySession.results
-            });
-            localStorage.setItem('studySessions', JSON.stringify(sessions));
-        } catch (error) {
-            console.warn('Failed to save study session:', error);
-        }
+        this.showSuccess('Practice session complete! 🎉');
+        this.hideFlashcardMode();
     }
 
     /**
@@ -524,10 +476,6 @@ class VocabularyPage extends BasePage {
      */
     cleanup() {
         super.cleanup();
-        
-        if (this.studySession.active) {
-            this.endStudySession();
-        }
     }
 }
 
