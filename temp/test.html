@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Shopping Data</title>
+</head>
+<body>
+    <h1>Testing Shopping JSON</h1>
+    <div id="output"></div>
+    
+    <script>
+    async function testShoppingData() {
+        try {
+            const response = await fetch('topics/shopping.json');
+            const data = await response.json();
+            document.getElementById('output').innerHTML = `
+                <h2>Shopping Data Loaded Successfully!</h2>
+                <p><strong>Topic:</strong> ${data.topic}</p>
+                <p><strong>Display Name:</strong> ${data.displayName}</p>
+                <p><strong>Phrases Count:</strong> ${data.phrases.length}</p>
+                <h3>First 3 phrases:</h3>
+                <ul>
+                    ${data.phrases.slice(0, 3).map(phrase => 
+                        `<li><strong>${phrase.lithuanian}</strong> - ${phrase.english}</li>`
+                    ).join('')}
+                </ul>
+            `;
+        } catch (error) {
+            document.getElementById('output').innerHTML = `
+                <h2 style="color: red;">Error loading shopping.json:</h2>
+                <p>${error.message}</p>
+            `;
+        }
+    }
+    
+    testShoppingData();
+    </script>
+</body>
+</html>
+</html>

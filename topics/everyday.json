@@ -1,0 +1,248 @@
+{
+  "topic": "everyday",
+  "displayName": "Everyday Conversations",
+  "icon": "fas fa-comments",
+  "description": "Common phrases for daily interactions and casual conversations",
+  "phrases": [
+  {
+    "lithuanian": "Ką padarysi!",
+    "english": "It is what it is! / What can you do!",
+    "partOfSpeech": "idiom/exclamation",
+    "exampleSentence": "Ką padarysi! Dabar ilsėsiuosi ir vėliau viską sutvarkysiu.",
+    "sentenceTranslation": "It is what it is! Now I will rest and will sort everything out later.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Tikiuosi, kad šiandien viskas greitai praeis.",
+    "english": "I hope that everything passes quickly today.",
+    "partOfSpeech": "wish",
+    "exampleSentence": "Tikiuosi, kad šiandien viskas greitai praeis ir galėsiu anksčiau išeiti.",
+    "sentenceTranslation": "I hope that everything passes quickly today and I can leave earlier.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Aš jau grįžau namo.",
+    "english": "I already returned home.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Aš jau grįžau namo, dabar eisiu virti vakarienės.",
+    "sentenceTranslation": "I already returned home, now I will go cook dinner.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "greitai irgi eisiu miegoti",
+    "english": "I will also go to sleep soon",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Jau vėlu, greitai irgi eisiu miegoti.",
+    "sentenceTranslation": "It's already late, I will also go to sleep soon.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "sėdžiu",
+    "english": "I am sitting (waiting/here)",
+    "partOfSpeech": "verb (present tense)",
+    "exampleSentence": "Dabar sėdžiu prie kompiuterio ir atlieku užduotis.",
+    "sentenceTranslation": "Now I am sitting at the computer and doing tasks.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Kas nutiko?",
+    "english": "What happened?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Matau, kad nuotrauka iš ligoninės. Kas nutiko?",
+    "sentenceTranslation": "I see that the picture is from the hospital. What happened?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Ar viskas gerai?",
+    "english": "Is everything alright?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Atsiprašau, neatsakiau vakar. Ar viskas gerai?",
+    "sentenceTranslation": "Sorry, I didn't answer yesterday. Is everything alright?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "O kaip tu dabar jautiesi?",
+    "english": "And how do you feel now?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Baigei darbą? O kaip tu dabar jautiesi?",
+    "sentenceTranslation": "Did you finish work? And how do you feel now?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Ar tai saldu?",
+    "english": "Is it sweet?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Ar tai saldu, ar tai sūru?",
+    "sentenceTranslation": "Is it sweet, or is it salty?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Čia tavo vakarienė?",
+    "english": "Is this your dinner?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Nuotraukoje maistas. Čia tavo vakarienė?",
+    "sentenceTranslation": "Food in the picture. Is this your dinner?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Aš suprast suprantu",
+    "english": "I *do* understand / I definitely understand",
+    "partOfSpeech": "statement (emphasis)",
+    "exampleSentence": "Nesijaudink, aš suprast suprantu, kad sunku.",
+    "sentenceTranslation": "Don't worry, I *do* understand that it's hard.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Supratau. Būtinai parašyk vėliau!",
+    "english": "I understand. Be sure to write later!",
+    "partOfSpeech": "closing statement",
+    "exampleSentence": "Supratau! Būtinai parašyk vėliau, kai turėsi laiko.",
+    "sentenceTranslation": "I understand! Be sure to write later when you have time.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Kiek dar laiko važiuoti iki namų?",
+    "english": "How much more time to drive until home?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Jau vėlu, kiek dar laiko važiuoti iki namų?",
+    "sentenceTranslation": "It's already late, how much more time to drive until home?",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "tu esi pavargęs/pavargusi",
+    "english": "you are tired (male/female)",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Matau, kad esi pavargęs/pavargusi. Gal laikas miegoti?",
+    "sentenceTranslation": "I see that you are tired. Maybe it's time to sleep?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "mašinos garsas malonus",
+    "english": "the car's sound is pleasant",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Girdžiu, kad mašinos garsas malonus, ar tu dabar važiuoji?",
+    "sentenceTranslation": "I hear that the car's sound is pleasant, are you driving now?",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Tikiuosi, gerai miegojai",
+    "english": "I hope you slept well (past tense)",
+    "partOfSpeech": "question/statement",
+    "exampleSentence": "Labas rytas! Tikiuosi, gerai miegojai.",
+    "sentenceTranslation": "Good morning! I hope you slept well.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "viskas padaryta, atlikta",
+    "english": "everything is done, performed",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Šiandien daug dirbau, bet viskas padaryta, atlikta.",
+    "sentenceTranslation": "I worked a lot today, but everything is done, performed.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "eilinė mano diena",
+    "english": "my regular/ordinary day",
+    "partOfSpeech": "noun phrase",
+    "exampleSentence": "Rytoj prasidės eilinė mano diena, reikės anksti keltis.",
+    "sentenceTranslation": "My regular day will start tomorrow, I will need to wake up early.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Ką tu veiki?",
+    "english": "What are you doing?",
+    "partOfSpeech": "question",
+    "exampleSentence": "Atsiprašau, bet ką tu veiki dabar?",
+    "sentenceTranslation": "Excuse me, but what are you doing now?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "dar šiek tiek su jais pasikalbėjome",
+    "english": "we talked with them a little bit more",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Atsiprašau, dar šiek tiek su jais pasikalbėjome, bet jau baigiau.",
+    "sentenceTranslation": "Sorry, we talked with them a little bit more, but I already finished.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "buvo atejusi kaimynė mano",
+    "english": "my neighbor had come over",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Vakar buvo atejusi kaimynė mano, tai kartu gėrėme kavą.",
+    "sentenceTranslation": "My neighbor had come over yesterday, so we drank coffee together.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "reikės eiti miegoti",
+    "english": "I will need to go to sleep",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Jau vėlu, reikės eiti miegoti, kad rytoj atsikelčiau anksti.",
+    "sentenceTranslation": "It's already late, I will need to go to sleep so that I wake up early tomorrow.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "eisiu į dušą",
+    "english": "I will go to the shower",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Prieš miegą eisiu į dušą ir paskaitysiu knygą.",
+    "sentenceTranslation": "Before bed I will go to the shower and read a book.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "aš vėl anksti kelsiuosi",
+    "english": "I will wake up early again",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Turiu daug darbo, todėl aš vėl anksti kelsiuosi.",
+    "sentenceTranslation": "I have a lot of work, so I will wake up early again.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "prasidės eilinė mano diena",
+    "english": "my regular/ordinary day will begin",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Viskas paruošta, rytoj prasidės eilinė mano diena.",
+    "sentenceTranslation": "Everything is ready, my regular day will begin tomorrow.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "buvo sunki diena, iš tikrųjų",
+    "english": "it was a hard day, truly/in fact",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Atvirai pasakius, buvo sunki diena, iš tikrųjų.",
+    "sentenceTranslation": "To be honest, it was a hard day, truly.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "pakankamai labai daug visko vyko",
+    "english": "quite a lot of everything was going on",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Savaitgalį pakankamai labai daug visko vyko, todėl dabar esu pavargęs.",
+    "sentenceTranslation": "Quite a lot of everything was going on over the weekend, so I am tired now.",
+    "difficulty": "B1"
+  },
+  {
+    "lithuanian": "jau viskas padaryta, atlikta",
+    "english": "everything is already done, performed",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Džiaugiuosi, kad jau viskas padaryta, atlikta ir galiu eiti ilsėtis.",
+    "sentenceTranslation": "I am happy that everything is already done, performed and I can go rest.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "faini",
+    "english": "nice / cool (slang)",
+    "partOfSpeech": "adjective (slang)",
+    "exampleSentence": "Gerai, kad projektas baigtas, tai faini!",
+    "sentenceTranslation": "It's good that the project is finished, that's nice/cool!",
+    "difficulty": "A1 (slang)"
+  },
+  {
+    "lithuanian": "kaip sakyt",
+    "english": "as you say / so to speak",
+    "partOfSpeech": "filler phrase",
+    "exampleSentence": "Dabar aš esu laisvas, kaip sakyt, pasiruošęs pokalbiui.",
+    "sentenceTranslation": "Now I am free, so to speak, ready for the conversation.",
+    "difficulty": "B1"
+  }
+]
+}

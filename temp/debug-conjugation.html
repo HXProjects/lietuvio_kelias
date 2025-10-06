@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Conjugation Trainer</title>
+</head>
+<body>
+    <h1>Debugging Conjugation Trainer</h1>
+    <div id="debug-output"></div>
+    <button onclick="testLoading()">Test Loading</button>
+    
+    <script>
+        // Simple debug script to test core functionality
+        async function testLoading() {
+            const output = document.getElementById('debug-output');
+            output.innerHTML = '<p>Testing...</p>';
+            
+            try {
+                // Test verb loading
+                const response = await fetch('verbs/verbs.json');
+                const data = await response.json();
+                
+                output.innerHTML = `
+                    <h3>✅ Verbs loaded successfully</h3>
+                    <p>Found ${data.verbs.length} verbs</p>
+                    <p>First verb: ${data.verbs[0].infinitive} (${data.verbs[0].english})</p>
+                `;
+                
+                // Test basic TTS
+                if ('speechSynthesis' in window) {
+                    output.innerHTML += '<p>✅ Speech synthesis available</p>';
+                    
+                    const utterance = new SpeechSynthesisUtterance('Test');
+                    speechSynthesis.speak(utterance);
+                    output.innerHTML += '<p>✅ Basic TTS test completed</p>';
+                } else {
+                    output.innerHTML += '<p>❌ Speech synthesis not available</p>';
+                }
+                
+            } catch (error) {
+                output.innerHTML = `<p>❌ Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>

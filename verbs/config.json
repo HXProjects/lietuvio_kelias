@@ -1,0 +1,37 @@
+{
+  "topics": [
+    {
+      "id": "essential-verbs",
+      "displayName": "Essential Verbs",
+      "icon": "fas fa-star",
+      "description": "The most fundamental verbs every learner needs: būti (to be), turėti (to have), daryti (to do/make)",
+      "color": "#E53935",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "action-verbs", 
+      "displayName": "Action Verbs",
+      "icon": "fas fa-running",
+      "description": "Common physical and everyday action verbs: eiti (to go), valgyti (to eat), skaityti (to read), keliauti (to travel)",
+      "color": "#2E7D32",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "communication-verbs",
+      "displayName": "Communication Verbs", 
+      "icon": "fas fa-comments",
+      "description": "Verbs for speaking, learning, and social interaction: kalbėti (to speak), mokytis (to learn), atsiprašyti (to apologize)",
+      "color": "#FDD835",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "basic-verbs",
+      "displayName": "Basic Verbs", 
+      "icon": "fas fa-comments",
+      "description": "Verbs for general conversation",
+      "color": "#FDD835",
+      "difficulty": "intermediate"
+    }
+
+  ]
+}

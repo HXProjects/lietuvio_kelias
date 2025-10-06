@@ -1,0 +1,80 @@
+{
+  "topic": "technology",
+  "displayName": "Technology",
+  "icon": "fas fa-laptop",
+  "description": "Technology-related phrases for digital devices, internet, and modern communication",
+  "phrases": [
+    {
+      "lithuanian": "Ar yra WiFi slaptažodis?",
+      "english": "Is there a WiFi password?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar yra WiFi slaptažodis? Man reikia patikrinti el. paštą.",
+      "sentenceTranslation": "Is there a WiFi password? I need to check my email.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Mano telefonas neveikia",
+      "english": "My phone is not working",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Mano telefonas neveikia. Kur galiu jį sutaisyti?",
+      "sentenceTranslation": "My phone is not working. Where can I get it repaired?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu įkrauti telefoną?",
+      "english": "Can I charge my phone?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu įkrauti telefoną? Baterija beveik išseko.",
+      "sentenceTranslation": "Can I charge my phone? The battery is almost dead.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kaip prisijungti prie interneto?",
+      "english": "How do I connect to the internet?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kaip prisijungti prie interneto? Reikia nusiųsti svarbų el. laišką.",
+      "sentenceTranslation": "How do I connect to the internet? I need to send an important email.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kompiuteris užsikirtęs",
+      "english": "The computer froze",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kompiuteris užsikirtęs. Kaip jį perkrauti?",
+      "sentenceTranslation": "The computer froze. How do I restart it?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar turite kroviklį iPhone?",
+      "english": "Do you have an iPhone charger?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite kroviklį iPhone? Mano telefonas beveik išsikrovęs.",
+      "sentenceTranslation": "Do you have an iPhone charger? My phone is almost dead.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Internetas lėtas",
+      "english": "The internet is slow",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Internetas labai lėtas šiandien. Ar galite patikrinti ryšį?",
+      "sentenceTranslation": "The internet is very slow today. Can you check the connection?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galite parodyti, kaip tai veikia?",
+      "english": "Can you show me how this works?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite parodyti, kaip tai veikia? Esu naujas su šia programa.",
+      "sentenceTranslation": "Can you show me how this works? I'm new to this program.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Man reikia atsisiųsti programą",
+      "english": "I need to download an app",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man reikia atsisiųsti programą vertimams. Kur galiu ją rasti?",
+      "sentenceTranslation": "I need to download a translation app. Where can I find it?",
+      "difficulty": "intermediate"
+    }
+  ]
+}

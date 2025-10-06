@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Verb Loading</title>
+</head>
+<body>
+    <h1>Debug Verb Loading</h1>
+    <div id="status">Loading...</div>
+    <div id="topics"></div>
+    <div id="verbs"></div>
+
+    <script>
+        async function testVerbLoading() {
+            const status = document.getElementById('status');
+            const topicsDiv = document.getElementById('topics');
+            const verbsDiv = document.getElementById('verbs');
+            
+            try {
+                status.textContent = 'Loading topics config...';
+                
+                // Test config loading
+                const configResponse = await fetch('verbs/config.json');
+                const config = await configResponse.json();
+                topicsDiv.innerHTML = '<h3>Topics:</h3>' + JSON.stringify(config, null, 2);
+                
+                status.textContent = 'Loading first topic verbs...';
+                
+                // Test first topic loading
+                const topicResponse = await fetch('verbs/' + config.topics[0].id + '.json');
+                const topicData = await topicResponse.json();
+                verbsDiv.innerHTML = '<h3>First Topic Verbs:</h3>' + JSON.stringify(topicData.verbs.map(v => v.infinitive), null, 2);
+                
+                status.textContent = 'Success! Loaded ' + topicData.verbs.length + ' verbs from topic: ' + config.topics[0].displayName;
+                
+            } catch (error) {
+                status.textContent = 'Error: ' + error.message;
+                console.error('Debug error:', error);
+            }
+        }
+        
+        testVerbLoading();
+    </script>
+</body>
+</html>

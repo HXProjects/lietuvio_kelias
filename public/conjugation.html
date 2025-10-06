@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lithuanian Conjugation & Declension Trainer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="conjugation-styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-language"></i>
+                    <h1>Conjugation Trainer</h1>
+                </div>
+                <nav class="header-nav">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-book"></i>
+                        Vocabulary Builder
+                    </a>
+                    <a href="conjugation.html" class="nav-link active">
+                        <i class="fas fa-cogs"></i>
+                        Conjugation Trainer
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+
+            <!-- Game Stats -->
+            <div class="game-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value" id="score">0</div>
+                        <div class="stat-label">Score</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value" id="streak">0</div>
+                        <div class="stat-label">Streak</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value" id="level">1</div>
+                        <div class="stat-label">Level</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-percent"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value" id="accuracy">100%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mode Selector -->
+            <div class="mode-selector">
+                <button class="mode-btn active" data-mode="verbs">
+                    <i class="fas fa-running"></i>
+                    Verb Conjugation
+                </button>
+                <button class="mode-btn" data-mode="nouns">
+                    <i class="fas fa-cube"></i>
+                    Noun Declension
+                </button>
+                <button class="mode-btn" data-mode="adjectives">
+                    <i class="fas fa-palette"></i>
+                    Adjective Declension
+                </button>
+            </div>
+
+            <!-- Practice Area -->
+            <div class="practice-area">
+                <div class="conjugation-layout">
+                    <div class="conjugation-main">
+                        <!-- Verb Display -->
+                <div class="verb-display">
+                    <div class="verb-info">
+                        <h2 class="verb-infinitive" id="current-verb">Loading...</h2>
+                        <p class="verb-translation" id="verb-translation">Loading translation...</p>
+                        <div class="verb-tense">
+                            <span class="tense-label" id="current-tense">Present Tense</span>
+                            <button class="btn btn-secondary" id="change-tense-btn">
+                                <i class="fas fa-clock"></i>
+                                Change Tense
+                            </button>
+                        </div>
+                    </div>
+                    <div class="verb-actions">
+                        <div class="mode-toggle-container">
+                            <span class="mode-label">Learning</span>
+                            <label class="mode-toggle">
+                                <input type="checkbox" id="mode-toggle">
+                                <span class="toggle-slider"></span>
+                            </label>
+                            <span class="mode-label">Practice</span>
+                        </div>
+                        <button class="btn btn-primary" id="new-verb-btn">
+                            <i class="fas fa-refresh"></i>
+                            New Verb
+                        </button>
+                        <button class="btn btn-secondary" id="show-all-btn" style="display: none;">
+                            <i class="fas fa-eye"></i>
+                            Show All
+                        </button>
+                        <button class="btn btn-secondary" id="pronounce-btn">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                        <button class="btn btn-secondary" id="tts-settings-btn">
+                            <i class="fas fa-eye"></i>
+                            TTS Settings
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conjugation Grid -->
+                <div class="conjugation-grid" id="conjugation-grid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                        <!-- Progress Bar -->
+                        <div class="progress-container">
+                            <div class="progress-label">Session Progress</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                            </div>
+                            <div class="progress-text">
+                                <span id="progress-current">0</span> / <span id="progress-total">10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Verb Topics Sidebar -->
+                    <div class="topics-sidebar">
+                        <h3>
+                            <i class="fas fa-cogs"></i>
+                            Verb Topics
+                        </h3>
+                        <div class="topic-filters" id="verb-topic-filters">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                        
+                        <!-- Verb List Section -->
+                        <div class="verb-list-section" id="verb-list-section" style="display: none;">
+                            <div class="section-divider"></div>
+                            <h4>
+                                <i class="fas fa-list"></i>
+                                <span id="verb-list-title">Verbs in Topic</span>
+                            </h4>
+                            <div class="verb-list" id="verb-list">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tense Selector Modal -->
+            <div class="modal" id="tense-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Select Tense</h3>
+                        <button class="close-modal" id="close-tense-modal">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="tense-options">
+                        <button class="tense-option active" data-tense="present">Present</button>
+                        <button class="tense-option" data-tense="past">Past</button>
+                        <button class="tense-option" data-tense="future">Future</button>
+                        <button class="tense-option" data-tense="conditional">Conditional</button>
+                        <button class="tense-option" data-tense="imperative">Imperative</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TTS Settings Modal -->
+            <div class="modal" id="tts-settings-modal">
+                <div class="modal-content tts-settings">
+                    <div class="modal-header">
+                        <h3>Text-to-Speech Settings</h3>
+                        <button class="close-modal" id="close-tts-modal">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="tts-settings-content">
+                        <!-- Provider Selection -->
+                        <div class="setting-group">
+                            <label>TTS Provider</label>
+                            <div class="provider-options" id="provider-options">
+                                <!-- Populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <!-- Lithuanian TTS Server Settings -->
+                        <div class="setting-group">
+                            <label>Lithuanian TTS Server Status</label>
+                            <div class="server-status" id="server-status">
+                                <div class="status-check">
+                                    <i class="fas fa-server"></i>
+                                    <span id="server-status-text">Checking server...</span>
+                                    <button type="button" id="check-server" class="btn btn-secondary">
+                                        <i class="fas fa-refresh"></i> Check Server
+                                    </button>
+                                </div>
+                                <div class="server-info" id="server-info" style="display: none;">
+                                    <div class="info-item">
+                                        <i class="fas fa-link"></i>
+                                        <span>Server: http://localhost:3001</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-microphone"></i>
+                                        <span>Voice: Lithuanian Standard Female (lt-LT-Standard-A)</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <i class="fas fa-database"></i>
+                                        <span>Smart caching enabled</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Server Setup Instructions -->
+                        <div class="setting-group" id="server-instructions" style="display: none;">
+                            <label>How to Start TTS Server</label>
+                            <div class="setup-instructions">
+                                <div class="instruction-header">
+                                    <i class="fas fa-info-circle"></i>
+                                    <strong>Start the Lithuanian TTS Server:</strong>
+                                </div>
+                                <ol class="setup-steps">
+                                    <li>Open terminal/command prompt</li>
+                                    <li>Navigate to: <code>cd texttospeech</code></li>
+                                    <li>Run server: <code>node tts-server.js</code></li>
+                                    <li>Server should start on port 3001</li>
+                                    <li>Click "Check Server" button above</li>
+                                </ol>
+                                <div class="note">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <strong>Note:</strong> The server uses your Google Cloud credentials from cloud-key.json
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Test TTS -->
+                        <div class="setting-group">
+                            <label>Test Text-to-Speech</label>
+                            <div class="tts-test">
+                                <input type="text" id="test-text" placeholder="Enter text to test..." value="Labas rytas! Kaip sekasi?">
+                                <button type="button" id="test-tts" class="btn btn-secondary">
+                                    <i class="fas fa-play"></i>
+                                    Test Lithuanian
+                                </button>
+                                <button type="button" id="test-tts-en" class="btn btn-secondary">
+                                    <i class="fas fa-play"></i>
+                                    Test English
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Settings -->
+                        <div class="setting-group">
+                            <label>Options</label>
+                            <div class="tts-options">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="enable-caching" checked>
+                                    <span>Enable Audio Caching</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="fallback-local" checked>
+                                    <span>Fallback to Local TTS</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lithuanian TTS Client -->
+    <script src="../scripts/lithuanian-tts-client.js"></script>
+    
+    <!-- Legacy Data Systems (still needed) -->
+    <script src="../scripts/conjugation-data.js"></script>
+    
+    <!-- New Architecture Core -->
+    <script src="../src/core/AudioManager.js"></script>
+    <script src="../src/ui/UIManager.js"></script>
+    <script src="../src/core/BasePage.js"></script>
+    <script src="../src/pages/ConjugationPage.js"></script>
+    <script src="../src/core/AppCore.js"></script>
+</body>
+</html>

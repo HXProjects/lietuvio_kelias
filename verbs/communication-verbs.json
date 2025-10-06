@@ -1,0 +1,259 @@
+{
+  "verbs": [
+    {
+      "infinitive": "kalbėti",
+      "english": "to speak",
+      "type": "regular",
+      "conjugationGroup": "I",
+      "transitivity": "transitive",
+      "aspectPair": "pakalbėti",
+      "government": {
+        "case": "instrumental",
+        "description": "Used with noun in instrumental case for means, or accusative for direct matter",
+        "example": "Aš kalbu lietuviškai (I speak Lithuanian - instrumental case)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "kalbu", 
+            "example": "Aš kalbu lietuviškai", 
+            "translation": "I speak Lithuanian"
+          },
+          "tu": { 
+            "form": "kalbi", 
+            "example": "Tu kalbi angliškai", 
+            "translation": "You speak English"
+          },
+          "jis/ji": { 
+            "form": "kalba", 
+            "example": "Jis kalba prancūziškai", 
+            "translation": "He speaks French"
+          },
+          "mes": { 
+            "form": "kalbame", 
+            "example": "Mes kalbame apie politiką", 
+            "translation": "We speak about politics"
+          },
+          "jūs": { 
+            "form": "kalbate", 
+            "example": "Jūs kalbate apie savo darbus", 
+            "translation": "You speak about your work"
+          },
+          "jie/jos": { 
+            "form": "kalba", 
+            "example": "Jie kalba namuose", 
+            "translation": "They speak at home"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "mokytis",
+      "english": "to learn (study)",
+      "type": "regular",
+      "conjugationGroup": "II (reflexive)",
+      "transitivity": "transitive",
+      "aspectPair": "išmokti",
+      "government": {
+        "case": "genitive",
+        "description": "Takes object in genitive case for subject matter",
+        "example": "Aš mokausi matematikos (I study mathematics)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "mokausi", 
+            "example": "Aš mokausi anglų kalbos", 
+            "translation": "I learn English"
+          },
+          "tu": { 
+            "form": "mokaisi", 
+            "example": "Tu mokaisi istorijos", 
+            "translation": "You learn history"
+          },
+          "jis/ji": { 
+            "form": "mokosi", 
+            "example": "Ji mokosi biologijos", 
+            "translation": "She learns biology"
+          },
+          "mes": { 
+            "form": "mokomės", 
+            "example": "Mes mokomės chemijos", 
+            "translation": "We learn chemistry"
+          },
+          "jūs": { 
+            "form": "mokotės", 
+            "example": "Jūs mokotės geografijos", 
+            "translation": "You learn geography"
+          },
+          "jie/jos": { 
+            "form": "mokosi", 
+            "example": "Jie mokosi fizikos", 
+            "translation": "They learn physics"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "atsiprašyti",
+      "english": "to apologize / to excuse oneself",
+      "type": "regular (-yti conjugation, reflexive)",
+      "conjugationGroup": "I (reflexive)",
+      "transitivity": "intransitive (always reflexive)",
+      "aspectPair": null,
+      "government": {
+        "case": "genitive",
+        "description": "Takes the Genitive case to indicate the reason/object of the apology (Atsiprašau *dėl* vėlavimo – I apologize *for* the delay)",
+        "example": "Atsiprašau (dėl) triukšmo (I apologize for the noise - Genitive)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "atsiprašau", 
+            "example": "Aš atsiprašau už klaidas", 
+            "translation": "I apologize for the mistakes"
+          },
+          "tu": { 
+            "form": "atsiprašai", 
+            "example": "Tu atsiprašai ar ne?", 
+            "translation": "Are you apologizing or not?"
+          },
+          "jis/ji": { 
+            "form": "atsiprašo", 
+            "example": "Jis visada atsiprašo", 
+            "translation": "He always apologizes"
+          },
+          "mes": { 
+            "form": "atsiprašome", 
+            "example": "Mes atsiprašome už vėlavimą", 
+            "translation": "We apologize for the delay"
+          },
+          "jūs": { 
+            "form": "atsiprašote", 
+            "example": "Jūs atsiprašote kolegos", 
+            "translation": "You (pl/fml) apologize to the colleague"
+          },
+          "jie/jos": { 
+            "form": "atsiprašo", 
+            "example": "Jie atsiprašo svečių", 
+            "translation": "They apologize to the guests"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "atsiprašiau", 
+            "example": "Aš atsiprašiau tėvų", 
+            "translation": "I apologized to my parents"
+          },
+          "tu": { 
+            "form": "atsiprašei", 
+            "example": "Tu atsiprašei mokytojo?", 
+            "translation": "Did you apologize to the teacher?"
+          },
+          "jis/ji": { 
+            "form": "atsiprašė", 
+            "example": "Ji atsiprašė už klaidą", 
+            "translation": "She apologized for the mistake"
+          },
+          "mes": { 
+            "form": "atsiprašėme", 
+            "example": "Mes atsiprašėme jo", 
+            "translation": "We apologized to him (Genitive)"
+          },
+          "jūs": { 
+            "form": "atsiprašėte", 
+            "example": "Jūs atsiprašėte susirinkusiųjų", 
+            "translation": "You apologized to those gathered"
+          },
+          "jie/jos": { 
+            "form": "atsiprašė", 
+            "example": "Jie atsiprašė kitų", 
+            "translation": "They apologized to others"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "atsiprašysiu", 
+            "example": "Aš atsiprašysiu rytoj", 
+            "translation": "I will apologize tomorrow"
+          },
+          "tu": { 
+            "form": "atsiprašysi", 
+            "example": "Tu atsiprašysi jos?", 
+            "translation": "Will you apologize to her?"
+          },
+          "jis/ji": { 
+            "form": "atsiprašys", 
+            "example": "Jis atsiprašys vėliau", 
+            "translation": "He will apologize later"
+          },
+          "mes": { 
+            "form": "atsiprašysime", 
+            "example": "Mes atsiprašysime už viską", 
+            "translation": "We will apologize for everything"
+          },
+          "jūs": { 
+            "form": "atsiprašysite", 
+            "example": "Jūs atsiprašysite po pietų", 
+            "translation": "You will apologize after lunch"
+          },
+          "jie/jos": { 
+            "form": "atsiprašys", 
+            "example": "Jie atsiprašys grupės", 
+            "translation": "They will apologize to the group"
+          }
+        },
+        "conditional": {
+          "aš": {
+            "form": "atsiprašyčiau",
+            "example": "Atsiprašyčiau, jei žinočiau",
+            "translation": "I would apologize if I knew"
+          },
+          "tu": {
+            "form": "atsiprašytum",
+            "example": "Tu atsiprašytum, jei galėtum?",
+            "translation": "Would you apologize if you could?"
+          },
+          "jis/ji": {
+            "form": "atsiprašytų",
+            "example": "Jis atsiprašytų dėl to įvykio",
+            "translation": "He would apologize for that incident"
+          },
+          "mes": {
+            "form": "atsiprašytume",
+            "example": "Mes atsiprašytume, jei reikėtų",
+            "translation": "We would apologize if it were necessary"
+          },
+          "jūs": {
+            "form": "atsiprašytumėte",
+            "example": "Jūs atsiprašytumėte, ar ne?",
+            "translation": "You would apologize, wouldn't you?"
+          },
+          "jie/jos": {
+            "form": "atsiprašytų",
+            "example": "Jie atsiprašytų, bet negali",
+            "translation": "They would apologize, but they can't"
+          }
+        },
+        "imperative": {
+          "tu": {
+            "form": "atsiprašyk",
+            "example": "Atsiprašyk jo!",
+            "translation": "Apologize to him!"
+          },
+          "mes": {
+            "form": "atsiprašykime",
+            "example": "Atsiprašykime už šią nesėkmę",
+            "translation": "Let's apologize for this failure"
+          },
+          "jūs": {
+            "form": "atsiprašykite",
+            "example": "Atsiprašykite už nepatogumus",
+            "translation": "Apologize for the inconvenience"
+          }
+        }
+      }
+    }
+  ]
+}
+

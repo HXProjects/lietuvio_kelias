@@ -1,0 +1,67 @@
+{
+  "topics": [
+    {
+      "id": "greetings",
+      "displayName": "Greetings & Politeness",
+      "icon": "fas fa-hand-wave",
+      "description": "Essential greetings, polite expressions, and social courtesies for daily interactions",
+      "color": "#667eea"
+    },
+    {
+      "id": "shopping",
+      "displayName": "Shopping",
+      "icon": "fas fa-shopping-cart",
+      "description": "Essential phrases for shopping, prices, sizes, payments, and returns",
+      "color": "#764ba2"
+    },
+    {
+      "id": "restaurant",
+      "displayName": "Restaurant & Food",
+      "icon": "fas fa-utensils",
+      "description": "Dining phrases for ordering food, dietary needs, and restaurant interactions",
+      "color": "#f093fb"
+    },
+    {
+      "id": "travel",
+      "displayName": "Travel & Directions",
+      "icon": "fas fa-plane",
+      "description": "Essential phrases for transportation, navigation, hotels, and travel needs",
+      "color": "#f5576c"
+    },
+    {
+      "id": "work",
+      "displayName": "Work & Business",
+      "icon": "fas fa-briefcase",
+      "description": "Professional communication phrases for workplace interactions and business meetings",
+      "color": "#4facfe"
+    },
+    {
+      "id": "health",
+      "displayName": "Health & Emergency",
+      "icon": "fas fa-heart-pulse",
+      "description": "Medical and emergency phrases for healthcare situations and pharmacy visits",
+      "color": "#00f2fe"
+    },
+    {
+      "id": "social",
+      "displayName": "Social & Family",
+      "icon": "fas fa-users",
+      "description": "Social interactions, family conversations, and personal relationship phrases",
+      "color": "#43e97b"
+    },
+    {
+      "id": "weather",
+      "displayName": "Weather & Time",
+      "icon": "fas fa-cloud-sun",
+      "description": "Weather conditions, time inquiries, and seasonal conversations",
+      "color": "#38f9d7"
+    },
+    {
+      "id": "technology",
+      "displayName": "Technology",
+      "icon": "fas fa-laptop",
+      "description": "Technology-related phrases for digital devices, internet, and modern communication",
+      "color": "#667eea"
+    }
+  ]
+}

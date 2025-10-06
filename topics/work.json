@@ -1,0 +1,72 @@
+{
+  "topic": "work",
+  "displayName": "Work & Business",
+  "icon": "fas fa-briefcase",
+  "description": "Professional communication phrases for workplace interactions and business meetings",
+  "phrases": [
+    {
+      "lithuanian": "Ar galėčiau kalbėti su vadovu?",
+      "english": "Could I speak with the manager?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėčiau kalbėti su vadovu? Turiu svarbų klausimą.",
+      "sentenceTranslation": "Could I speak with the manager? I have an important question.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Kada yra susitikimas?",
+      "english": "When is the meeting?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kada yra susitikimas su klientais? Ar turiu paruošti prezentaciją?",
+      "sentenceTranslation": "When is the meeting with clients? Should I prepare a presentation?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Aš dirbu IT srityje",
+      "english": "I work in IT",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš dirbu IT srityje jau penkeri metai. Specializuojuosi programavimu.",
+      "sentenceTranslation": "I've been working in IT for five years. I specialize in programming.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galėtumėte atsiųsti el. laišką?",
+      "english": "Could you send an email?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėtumėte atsiųsti el. laišką su visų detalių aprašymu?",
+      "sentenceTranslation": "Could you send an email with a description of all the details?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Man reikia atostogų",
+      "english": "I need vacation time",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man reikia atostogų kitą savaitę. Ar galiu pateikti prašymą?",
+      "sentenceTranslation": "I need vacation time next week. Can I submit a request?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Koks yra terminas šiam projektui?",
+      "english": "What's the deadline for this project?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Koks yra terminas šiam projektui? Ar spėsime laiku?",
+      "sentenceTranslation": "What's the deadline for this project? Will we make it on time?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Aš išeinu į pensiją",
+      "english": "I'm retiring",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš išeinu į pensiją kitą mėnesį. Buvo malonu su jumis dirbti.",
+      "sentenceTranslation": "I'm retiring next month. It was a pleasure working with you.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galite pakartoti užduotį?",
+      "english": "Can you repeat the task?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite pakartoti užduotį? Nevisai supratau instrukciją.",
+      "sentenceTranslation": "Can you repeat the task? I didn't quite understand the instructions.",
+      "difficulty": "intermediate"
+    }
+  ]
+}

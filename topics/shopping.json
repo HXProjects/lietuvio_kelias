@@ -1,0 +1,104 @@
+{
+  "topic": "shopping",
+  "displayName": "Shopping",
+  "icon": "fas fa-shopping-cart",
+  "description": "Essential phrases for shopping, prices, sizes, payments, and returns",
+  "phrases": [
+    {
+      "lithuanian": "Kiek tai kainuoja?",
+      "english": "How much does this cost?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Atsiprašau, kiek tai kainuoja? Ar galiu sumokėti kortele?",
+      "sentenceTranslation": "Excuse me, how much does this cost? Can I pay by card?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar turite didesnį dydį?",
+      "english": "Do you have a larger size?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Šie marškinėliai man per maži. Ar turite didesnį dydį?",
+      "sentenceTranslation": "This shirt is too small for me. Do you have a larger size?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu tai išbandyti?",
+      "english": "Can I try this on?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu tai išbandyti? Kur yra persirengimo kabina?",
+      "sentenceTranslation": "Can I try this on? Where is the fitting room?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galite padaryti nuolaidą?",
+      "english": "Can you give me a discount?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite padaryti nuolaidą? Perkame kelis dalykus.",
+      "sentenceTranslation": "Can you give me a discount? We're buying several items.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu tai grąžinti?",
+      "english": "Can I return this?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu tai grąžinti, jei netiks? Ar reikia čekio?",
+      "sentenceTranslation": "Can I return this if it doesn't fit? Do I need the receipt?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kur galiu rasti...?",
+      "english": "Where can I find...?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kur galiu rasti vaikų drabužių skyrių?",
+      "sentenceTranslation": "Where can I find the children's clothing section?",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar priimate kreditines korteles?",
+      "english": "Do you accept credit cards?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar priimate kreditines korteles? O mokėjimo programėles?",
+      "sentenceTranslation": "Do you accept credit cards? What about payment apps?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Man reikia kvito",
+      "english": "I need a receipt",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man reikia kvito šiam pirkiniui. Ar galite atspausdinti?",
+      "sentenceTranslation": "I need a receipt for this purchase. Can you print it?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar turite garantiją?",
+      "english": "Do you have a warranty?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite garantiją šiam prietaisui? Kiek metų ji galioja?",
+      "sentenceTranslation": "Do you have a warranty for this device? How many years is it valid?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar yra išpardavimas?",
+      "english": "Is there a sale?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar yra išpardavimas šią savaitę? Ieškau batų.",
+      "sentenceTranslation": "Is there a sale this week? I'm looking for shoes.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Tai per brangu",
+      "english": "That's too expensive",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Tai per brangu man. Ar turite kažko pigesnio?",
+      "sentenceTranslation": "That's too expensive for me. Do you have something cheaper?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Aš tik žiūrinėju",
+      "english": "I'm just looking",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš tik žiūrinėju, ačiū. Jei reikės pagalbos, kreipsiuosi.",
+      "sentenceTranslation": "I'm just looking, thanks. If I need help, I'll ask.",
+      "difficulty": "intermediate"
+    }
+  ]
+}

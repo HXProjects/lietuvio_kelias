@@ -1,0 +1,1090 @@
+{
+  "verbs": [
+    {
+      "infinitive": "būti",
+      "english": "to be",
+      "type": "irregular",
+      "transitivity": "intransitive",
+      "aspectPair": null,
+      "government": {
+        "case": "nominative",
+        "description": "Takes nominative complement (predicate nominative)",
+        "example": "Aš esu mokytojas (I am a teacher)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "esu", 
+            "example": "Aš esu studentas", 
+            "translation": "I am a student",
+            "stress": "e-SU"
+          },
+          "tu": { 
+            "form": "esi", 
+            "example": "Tu esi geras", 
+            "translation": "You are good",
+            "stress": "e-SI"
+          },
+          "jis/ji": { 
+            "form": "yra", 
+            "example": "Jis yra mokytojas", 
+            "translation": "He is a teacher",
+            "stress": "y-RA"
+          },
+          "mes": { 
+            "form": "esame", 
+            "example": "Mes esame draugai", 
+            "translation": "We are friends",
+            "stress": "e-SA-me"
+          },
+          "jūs": { 
+            "form": "esate", 
+            "example": "Jūs esate malonūs", 
+            "translation": "You are kind",
+            "stress": "e-SA-te"
+          },
+          "jie/jos": { 
+            "form": "yra", 
+            "example": "Jie yra namuose", 
+            "translation": "They are at home",
+            "stress": "y-RA"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "buvau", 
+            "example": "Aš buvau mokykloje", 
+            "translation": "I was at school",
+            "stress": "bu-VAU"
+          },
+          "tu": { 
+            "form": "buvai", 
+            "example": "Tu buvai ten", 
+            "translation": "You were there",
+            "stress": "bu-VAI"
+          },
+          "jis/ji": { 
+            "form": "buvo", 
+            "example": "Jis buvo laimingas", 
+            "translation": "He was happy",
+            "stress": "BU-vo"
+          },
+          "mes": { 
+            "form": "buvome", 
+            "example": "Mes buvome kartu", 
+            "translation": "We were together",
+            "stress": "bu-VO-me"
+          },
+          "jūs": { 
+            "form": "buvote", 
+            "example": "Jūs buvote teisūs", 
+            "translation": "You were right",
+            "stress": "bu-VO-te"
+          },
+          "jie/jos": { 
+            "form": "buvo", 
+            "example": "Jie buvo užsiėmę", 
+            "translation": "They were busy",
+            "stress": "BU-vo"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "būsiu", 
+            "example": "Aš būsiu gydytojas", 
+            "translation": "I will be a doctor",
+            "stress": "BŪ-siu"
+          },
+          "tu": { 
+            "form": "būsi", 
+            "example": "Tu būsi sėkmingas", 
+            "translation": "You will be successful",
+            "stress": "BŪ-si"
+          },
+          "jis/ji": { 
+            "form": "bus", 
+            "example": "Jis bus čia", 
+            "translation": "He will be here",
+            "stress": "BUS"
+          },
+          "mes": { 
+            "form": "būsime", 
+            "example": "Mes būsime pasiruošę", 
+            "translation": "We will be ready",
+            "stress": "BŪ-si-me"
+          },
+          "jūs": { 
+            "form": "būsite", 
+            "example": "Jūs būsite patenkinti", 
+            "translation": "You will be satisfied",
+            "stress": "BŪ-si-te"
+          },
+          "jie/jos": { 
+            "form": "bus", 
+            "example": "Jie bus laimingi", 
+            "translation": "They will be happy",
+            "stress": "BUS"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "turėti",
+      "english": "to have",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": null,
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš turiu knygą (I have a book - book is in accusative)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "turiu", 
+            "example": "Aš turiu knygą", 
+            "translation": "I have a book",
+            "stress": "tu-RIU"
+          },
+          "tu": { 
+            "form": "turi", 
+            "example": "Tu turi laiką", 
+            "translation": "You have time",
+            "stress": "tu-RI"
+          },
+          "jis/ji": { 
+            "form": "turi", 
+            "example": "Jis turi šunį", 
+            "translation": "He has a dog",
+            "stress": "tu-RI"
+          },
+          "mes": { 
+            "form": "turime", 
+            "example": "Mes turime namų darbus", 
+            "translation": "We have homework",
+            "stress": "tu-RI-me"
+          },
+          "jūs": { 
+            "form": "turite", 
+            "example": "Jūs turite galimybę", 
+            "translation": "You have an opportunity",
+            "stress": "tu-RI-te"
+          },
+          "jie/jos": { 
+            "form": "turi", 
+            "example": "Jie turi mašiną", 
+            "translation": "They have a car",
+            "stress": "tu-RI"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "turėjau", 
+            "example": "Aš turėjau laiko", 
+            "translation": "I had time",
+            "stress": "tu-RĖ-jau"
+          },
+          "tu": { 
+            "form": "turėjai", 
+            "example": "Tu turėjai tikslą", 
+            "translation": "You had a goal",
+            "stress": "tu-RĖ-jai"
+          },
+          "jis/ji": { 
+            "form": "turėjo", 
+            "example": "Jis turėjo problemą", 
+            "translation": "He had a problem",
+            "stress": "tu-RĖ-jo"
+          },
+          "mes": { 
+            "form": "turėjome", 
+            "example": "Mes turėjome svajonę", 
+            "translation": "We had a dream",
+            "stress": "tu-RĖ-jo-me"
+          },
+          "jūs": { 
+            "form": "turėjote", 
+            "example": "Jūs turėjote teisę", 
+            "translation": "You had a right",
+            "stress": "tu-RĖ-jo-te"
+          },
+          "jie/jos": { 
+            "form": "turėjo", 
+            "example": "Jie turėjo vilties", 
+            "translation": "They had hope",
+            "stress": "tu-RĖ-jo"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "turėsiu", 
+            "example": "Aš turėsiu paklausimą", 
+            "translation": "I will have a question",
+            "stress": "tu-RĖ-siu"
+          },
+          "tu": { 
+            "form": "turėsi", 
+            "example": "Tu turėsi progą", 
+            "translation": "You will have a chance",
+            "stress": "tu-RĖ-si"
+          },
+          "jis/ji": { 
+            "form": "turės", 
+            "example": "Jis turės sprendimą", 
+            "translation": "He will have a decision",
+            "stress": "tu-RĖS"
+          },
+          "mes": { 
+            "form": "turėsime", 
+            "example": "Mes turėsime susitikimą", 
+            "translation": "We will have a meeting",
+            "stress": "tu-RĖ-si-me"
+          },
+          "jūs": { 
+            "form": "turėsite", 
+            "example": "Jūs turėsite atsakymą", 
+            "translation": "You will have an answer",
+            "stress": "tu-RĖ-si-te"
+          },
+          "jie/jos": { 
+            "form": "turės", 
+            "example": "Jie turės rezultatų", 
+            "translation": "They will have results",
+            "stress": "tu-RĖS"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "daryti",
+      "english": "to do/make",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": "padaryti",
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš darau namų darbus (I do homework - homework is in accusative)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "darau", 
+            "example": "Aš darau namų darbus", 
+            "translation": "I do homework",
+            "stress": "da-RAU"
+          },
+          "tu": { 
+            "form": "darai", 
+            "example": "Tu darai kavą", 
+            "translation": "You make coffee",
+            "stress": "da-RAI"
+          },
+          "jis/ji": { 
+            "form": "daro", 
+            "example": "Jis daro klaidą", 
+            "translation": "He makes a mistake",
+            "stress": "da-RO"
+          },
+          "mes": { 
+            "form": "darome", 
+            "example": "Mes darome projektą", 
+            "translation": "We do a project",
+            "stress": "da-RO-me"
+          },
+          "jūs": { 
+            "form": "darote", 
+            "example": "Jūs darote sprendimą", 
+            "translation": "You make a decision",
+            "stress": "da-RO-te"
+          },
+          "jie/jos": { 
+            "form": "daro", 
+            "example": "Jie daro pažangą", 
+            "translation": "They make progress",
+            "stress": "da-RO"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "dariau", 
+            "example": "Aš dariau mankštą", 
+            "translation": "I did exercise",
+            "stress": "da-RIAU"
+          },
+          "tu": { 
+            "form": "darei", 
+            "example": "Tu darei klausimą", 
+            "translation": "You asked a question",
+            "stress": "da-REI"
+          },
+          "jis/ji": { 
+            "form": "darė", 
+            "example": "Jis darė pažadą", 
+            "translation": "He made a promise",
+            "stress": "da-RĖ"
+          },
+          "mes": { 
+            "form": "darėme", 
+            "example": "Mes darėme planą", 
+            "translation": "We made a plan",
+            "stress": "da-RĖ-me"
+          },
+          "jūs": { 
+            "form": "darėte", 
+            "example": "Jūs darėte teisingai", 
+            "translation": "You did correctly",
+            "stress": "da-RĖ-te"
+          },
+          "jie/jos": { 
+            "form": "darė", 
+            "example": "Jie darė darbą", 
+            "translation": "They did work",
+            "stress": "da-RĖ"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "darysiu", 
+            "example": "Aš darysiu viską", 
+            "translation": "I will do everything",
+            "stress": "da-RY-siu"
+          },
+          "tu": { 
+            "form": "darysi", 
+            "example": "Tu darysi tai gerai", 
+            "translation": "You will do it well",
+            "stress": "da-RY-si"
+          },
+          "jis/ji": { 
+            "form": "darys", 
+            "example": "Jis darys ką nors", 
+            "translation": "He will do something",
+            "stress": "da-RYS"
+          },
+          "mes": { 
+            "form": "darysime", 
+            "example": "Mes darysime savo geriausiai", 
+            "translation": "We will do our best",
+            "stress": "da-RY-si-me"
+          },
+          "jūs": { 
+            "form": "darysite", 
+            "example": "Jūs darysite teisingą sprendimą", 
+            "translation": "You will make the right decision",
+            "stress": "da-RY-si-te"
+          },
+          "jie/jos": { 
+            "form": "darys", 
+            "example": "Jie darys pažangą", 
+            "translation": "They will make progress",
+            "stress": "da-RYS"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "eiti",
+      "english": "to go (on foot)",
+      "type": "irregular",
+      "transitivity": "intransitive",
+      "aspectPair": "nueiti",
+      "government": {
+        "case": "various",
+        "description": "Direction: į + accusative (into), Destination: link + genitive (towards)",
+        "example": "Aš einu į mokyklą (I go to school - direction)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "einu", 
+            "example": "Aš einu į mokyklą", 
+            "translation": "I go to school",
+            "stress": "ei-NU"
+          },
+          "tu": { 
+            "form": "eini", 
+            "example": "Tu eini namo", 
+            "translation": "You go home",
+            "stress": "ei-NI"
+          },
+          "jis/ji": { 
+            "form": "eina", 
+            "example": "Jis eina į darbą", 
+            "translation": "He goes to work",
+            "stress": "ei-NA"
+          },
+          "mes": { 
+            "form": "einame", 
+            "example": "Mes einame į parduotuvę", 
+            "translation": "We go to the store",
+            "stress": "ei-NA-me"
+          },
+          "jūs": { 
+            "form": "einate", 
+            "example": "Jūs einate į teatrą", 
+            "translation": "You go to the theater",
+            "stress": "ei-NA-te"
+          },
+          "jie/jos": { 
+            "form": "eina", 
+            "example": "Jie eina į parką", 
+            "translation": "They go to the park",
+            "stress": "ei-NA"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "ėjau", 
+            "example": "Aš ėjau per mišką", 
+            "translation": "I walked through the forest",
+            "stress": "Ė-jau"
+          },
+          "tu": { 
+            "form": "ėjai", 
+            "example": "Tu ėjai greitai", 
+            "translation": "You walked fast",
+            "stress": "Ė-jai"
+          },
+          "jis/ji": { 
+            "form": "ėjo", 
+            "example": "Jis ėjo lėtai", 
+            "translation": "He walked slowly",
+            "stress": "Ė-jo"
+          },
+          "mes": { 
+            "form": "ėjome", 
+            "example": "Mes ėjome kartu", 
+            "translation": "We walked together",
+            "stress": "Ė-jo-me"
+          },
+          "jūs": { 
+            "form": "ėjote", 
+            "example": "Jūs ėjote tiesiai", 
+            "translation": "You walked straight",
+            "stress": "Ė-jo-te"
+          },
+          "jie/jos": { 
+            "form": "ėjo", 
+            "example": "Jie ėjo į kiną", 
+            "translation": "They went to the movies",
+            "stress": "Ė-jo"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "eisiu", 
+            "example": "Aš eisiu rytoj", 
+            "translation": "I will go tomorrow",
+            "stress": "ei-SIU"
+          },
+          "tu": { 
+            "form": "eisi", 
+            "example": "Tu eisi su manimi", 
+            "translation": "You will go with me",
+            "stress": "ei-SI"
+          },
+          "jis/ji": { 
+            "form": "eis", 
+            "example": "Jis eis į universitetą", 
+            "translation": "He will go to university",
+            "stress": "EIS"
+          },
+          "mes": { 
+            "form": "eisime", 
+            "example": "Mes eisime į kelionę", 
+            "translation": "We will go on a trip",
+            "stress": "ei-SI-me"
+          },
+          "jūs": { 
+            "form": "eisite", 
+            "example": "Jūs eisite į susitikimą", 
+            "translation": "You will go to a meeting",
+            "stress": "ei-SI-te"
+          },
+          "jie/jos": { 
+            "form": "eis", 
+            "example": "Jie eis į svečius", 
+            "translation": "They will go visiting",
+            "stress": "EIS"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "valgyti",
+      "english": "to eat",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": "suvalgyti",
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš valgau obuolį (I eat an apple - apple is in accusative)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "valgau", 
+            "example": "Aš valgau obuolį", 
+            "translation": "I eat an apple",
+            "stress": "val-GAU"
+          },
+          "tu": { 
+            "form": "valgai", 
+            "example": "Tu valgai pietus", 
+            "translation": "You eat lunch",
+            "stress": "val-GAI"
+          },
+          "jis/ji": { 
+            "form": "valgo", 
+            "example": "Jis valgo duoną", 
+            "translation": "He eats bread",
+            "stress": "val-GO"
+          },
+          "mes": { 
+            "form": "valgome", 
+            "example": "Mes valgome kartu", 
+            "translation": "We eat together",
+            "stress": "val-GO-me"
+          },
+          "jūs": { 
+            "form": "valgote", 
+            "example": "Jūs valgote sveikai", 
+            "translation": "You eat healthy",
+            "stress": "val-GO-te"
+          },
+          "jie/jos": { 
+            "form": "valgo", 
+            "example": "Jie valgo vakarienę", 
+            "translation": "They eat dinner",
+            "stress": "val-GO"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "valgiau", 
+            "example": "Aš valgiau pusryčius", 
+            "translation": "I ate breakfast",
+            "stress": "val-GIAU"
+          },
+          "tu": { 
+            "form": "valgei", 
+            "example": "Tu valgei skaniai", 
+            "translation": "You ate deliciously",
+            "stress": "val-GEI"
+          },
+          "jis/ji": { 
+            "form": "valgė", 
+            "example": "Jis valgė mėsą", 
+            "translation": "He ate meat",
+            "stress": "val-GĖ"
+          },
+          "mes": { 
+            "form": "valgėme", 
+            "example": "Mes valgėme restorane", 
+            "translation": "We ate at a restaurant",
+            "stress": "val-GĖ-me"
+          },
+          "jūs": { 
+            "form": "valgėte", 
+            "example": "Jūs valgėte daug", 
+            "translation": "You ate a lot",
+            "stress": "val-GĖ-te"
+          },
+          "jie/jos": { 
+            "form": "valgė", 
+            "example": "Jie valgė tortą", 
+            "translation": "They ate cake",
+            "stress": "val-GĖ"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "valgysiu", 
+            "example": "Aš valgysiu vakarienę", 
+            "translation": "I will eat dinner",
+            "stress": "val-GY-siu"
+          },
+          "tu": { 
+            "form": "valgysi", 
+            "example": "Tu valgysi su mumis", 
+            "translation": "You will eat with us",
+            "stress": "val-GY-si"
+          },
+          "jis/ji": { 
+            "form": "valgys", 
+            "example": "Jis valgys namuose", 
+            "translation": "He will eat at home",
+            "stress": "val-GYS"
+          },
+          "mes": { 
+            "form": "valgysime", 
+            "example": "Mes valgysime picos", 
+            "translation": "We will eat pizza",
+            "stress": "val-GY-si-me"
+          },
+          "jūs": { 
+            "form": "valgysite", 
+            "example": "Jūs valgysite saldainių", 
+            "translation": "You will eat candy",
+            "stress": "val-GY-si-te"
+          },
+          "jie/jos": { 
+            "form": "valgys", 
+            "example": "Jie valgys žuvį", 
+            "translation": "They will eat fish",
+            "stress": "val-GYS"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "kalbėti",
+      "english": "to speak",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": "pakalbėti",
+      "government": {
+        "case": "instrumental",
+        "description": "Used with noun in instrumental case for means, or accusative for direct matter",
+        "example": "Aš kalbu lietuviškai (I speak Lithuanian - instrumental case)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "kalbu", 
+            "example": "Aš kalbu lietuviškai", 
+            "translation": "I speak Lithuanian",
+            "stress": "kal-BU"
+          },
+          "tu": { 
+            "form": "kalbi", 
+            "example": "Tu kalbi angliškai", 
+            "translation": "You speak English",
+            "stress": "kal-BI"
+          },
+          "jis/ji": { 
+            "form": "kalba", 
+            "example": "Jis kalba prancūziškai", 
+            "translation": "He speaks French",
+            "stress": "kal-BA"
+          },
+          "mes": { 
+            "form": "kalbame", 
+            "example": "Mes kalbame apie politiką", 
+            "translation": "We speak about politics",
+            "stress": "kal-BA-me"
+          },
+          "jūs": { 
+            "form": "kalbate", 
+            "example": "Jūs kalbate apie savo darbus", 
+            "translation": "You speak about your work",
+            "stress": "kal-BA-te"
+          },
+          "jie/jos": { 
+            "form": "kalba", 
+            "example": "Jie kalba namuose", 
+            "translation": "They speak at home",
+            "stress": "kal-BA"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "mokytis",
+      "english": "to learn (study)",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": "išmokti",
+      "government": {
+        "case": "genitive",
+        "description": "Takes object in genitive case for subject matter",
+        "example": "Aš mokausi matematikos (I study mathematics)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "mokausi", 
+            "example": "Aš mokausi anglų kalbos", 
+            "translation": "I learn English",
+            "stress": "mo-KAU-si"
+          },
+          "tu": { 
+            "form": "mokaisi", 
+            "example": "Tu mokaisi istorijos", 
+            "translation": "You learn history",
+            "stress": "mo-KAI-si"
+          },
+          "jis/ji": { 
+            "form": "mokosi", 
+            "example": "Ji mokosi biologijos", 
+            "translation": "She learns biology",
+            "stress": "mo-KO-si"
+          },
+          "mes": { 
+            "form": "mokomės", 
+            "example": "Mes mokomės chemijos", 
+            "translation": "We learn chemistry",
+            "stress": "mo-KO-mės"
+          },
+          "jūs": { 
+            "form": "mokotės", 
+            "example": "Jūs mokotės geografijos", 
+            "translation": "You learn geography",
+            "stress": "mo-KO-tės"
+          },
+          "jie/jos": { 
+            "form": "mokosi", 
+            "example": "Jie mokosi fizikos", 
+            "translation": "They learn physics",
+            "stress": "mo-KO-si"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "skaityti",
+      "english": "to read",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": "perskaityti",
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš skaitau knygą (I read a book - book is in accusative case)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "skaitau", 
+            "example": "Aš skaitau knygą", 
+            "translation": "I read a book",
+            "stress": "skaI-TAU"
+          },
+          "tu": { 
+            "form": "skaitai", 
+            "example": "Tu skaitai laikraštį", 
+            "translation": "You read a newspaper",
+            "stress": "skaI-TAI"
+          },
+          "jis/ji": { 
+            "form": "skaito", 
+            "example": "Jis skaito straipsnį", 
+            "translation": "He reads an article",
+            "stress": "skaI-TO"
+          },
+          "mes": { 
+            "form": "skaitome", 
+            "example": "Mes skaitome vadovėlį", 
+            "translation": "We read a textbook",
+            "stress": "skaI-TO-me"
+          },
+          "jūs": { 
+            "form": "skaitote", 
+            "example": "Jūs skaitote žurnalą", 
+            "translation": "You read a magazine",
+            "stress": "skaI-TO-te"
+          },
+          "jie/jos": { 
+            "form": "skaito", 
+            "example": "Jie skaito romaną", 
+            "translation": "They read a novel",
+            "stress": "skaI-TO"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "keliauti",
+      "english": "to travel",
+      "type": "regular",
+      "transitivity": "intransitive",
+      "aspectPair": "nukeliauti",
+      "government": {
+        "case": "various prepositions",
+        "description": "Commonly accompanied by preposition with destination",
+        "example": "Aš keliauju į miestą (I travel to the city)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "keliauju", 
+            "example": "Aš keliauju į Paryžių", 
+            "translation": "I travel to Paris",
+            "stress": "ke-LIAU-ju"
+          },
+          "tu": { 
+            "form": "keliauji", 
+            "example": "Tu keliauji autobusu", 
+            "translation": "You travel by bus",
+            "stress": "ke-LIAU-ji"
+          },
+          "jis/ji": { 
+            "form": "keliauja", 
+            "example": "Jis keliauja į kalnus", 
+            "translation": "He travels to the mountains",
+            "stress": "ke-LIAU-ja"
+          },
+          "mes": { 
+            "form": "keliaujame", 
+            "example": "Mes keliaujame kartu", 
+            "translation": "We travel together",
+            "stress": "ke-LIAU-ja-me"
+          },
+          "jūs": { 
+            "form": "keliaujate", 
+            "example": "Jūs keliaujate po pasaulį", 
+            "translation": "You travel around the world",
+            "stress": "ke-LIAU-ja-te"
+          },
+          "jie/jos": { 
+            "form": "keliauja", 
+            "example": "Jie keliauja per Europą", 
+            "translation": "They travel through Europe",
+            "stress": "ke-LIAU-ja"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "parduoti",
+      "english": "to sell",
+      "type": "regular",
+      "transitivity": "transitive",
+      "aspectPair": "pardavinėti",
+      "government": {
+        "case": "accusative",
+        "description": "Objects sold are expressed in accusative case",
+        "example": "Aš parduodu automobilį (I sell a car)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "parduodu", 
+            "example": "Aš parduodu knygą", 
+            "translation": "I sell a book",
+            "stress": "par-DUO-du"
+          },
+          "tu": { 
+            "form": "parduodi", 
+            "example": "Tu parduodi mašiną", 
+            "translation": "You sell a car",
+            "stress": "par-DUO-di"
+          },
+          "jis/ji": { 
+            "form": "parduoda", 
+            "example": "Jis parduoda telefoną", 
+            "translation": "He sells a phone",
+            "stress": "par-DUO-da"
+          },
+          "mes": { 
+            "form": "parduodame", 
+            "example": "Mes parduodame drabužius", 
+            "translation": "We sell clothes",
+            "stress": "par-DUO-da-me"
+          },
+          "jūs": { 
+            "form": "parduodate", 
+            "example": "Jūs parduodate elektroniką", 
+            "translation": "You sell electronics",
+            "stress": "par-DUO-da-te"
+          },
+          "jie/jos": { 
+            "form": "parduoda", 
+            "example": "Jie parduoda namą", 
+            "translation": "They sell a house",
+            "stress": "par-DUO-da"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "atsiprašyti",
+      "english": "to apologize / to excuse oneself",
+      "type": "regular (-yti conjugation, reflexive)",
+      "transitivity": "intransitive (always reflexive)",
+      "aspectPair": null,
+      "government": {
+        "case": "genitive",
+        "description": "Takes the Genitive case to indicate the reason/object of the apology (Atsiprašau *dėl* vėlavimo – I apologize *for* the delay)",
+        "example": "Atsiprašau (dėl) triukšmo (I apologize for the noise - Genitive)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "atsiprašau", 
+            "example": "Aš atsiprašau už klaidas", 
+            "translation": "I apologize for the mistakes",
+            "stress": "at-si-prã-šau"
+          },
+          "tu": { 
+            "form": "atsiprašai", 
+            "example": "Tu atsiprašai ar ne?", 
+            "translation": "Are you apologizing or not?",
+            "stress": "at-si-prã-šai"
+          },
+          "jis/ji": { 
+            "form": "atsiprašo", 
+            "example": "Jis visada atsiprašo", 
+            "translation": "He always apologizes",
+            "stress": "at-si-prã-šo"
+          },
+          "mes": { 
+            "form": "atsiprašome", 
+            "example": "Mes atsiprašome už vėlavimą", 
+            "translation": "We apologize for the delay",
+            "stress": "at-si-prã-šo-me"
+          },
+          "jūs": { 
+            "form": "atsiprašote", 
+            "example": "Jūs atsiprašote kolegos", 
+            "translation": "You (pl/fml) apologize to the colleague",
+            "stress": "at-si-prã-šo-te"
+          },
+          "jie/jos": { 
+            "form": "atsiprašo", 
+            "example": "Jie atsiprašo svečių", 
+            "translation": "They apologize to the guests",
+            "stress": "at-si-prã-šo"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "atsiprašiau", 
+            "example": "Aš atsiprašiau tėvų", 
+            "translation": "I apologized to my parents",
+            "stress": "at-si-pra-šiãu"
+          },
+          "tu": { 
+            "form": "atsiprašei", 
+            "example": "Tu atsiprašei mokytojo?", 
+            "translation": "Did you apologize to the teacher?",
+            "stress": "at-si-pra-šei"
+          },
+          "jis/ji": { 
+            "form": "atsiprašė", 
+            "example": "Ji atsiprašė už klaidą", 
+            "translation": "She apologized for the mistake",
+            "stress": "at-si-prã-šė"
+          },
+          "mes": { 
+            "form": "atsiprašėme", 
+            "example": "Mes atsiprašėme jo", 
+            "translation": "We apologized to him (Genitive)",
+            "stress": "at-si-prã-šė-me"
+          },
+          "jūs": { 
+            "form": "atsiprašėte", 
+            "example": "Jūs atsiprašėte susirinkusiųjų", 
+            "translation": "You apologized to those gathered",
+            "stress": "at-si-prã-šė-te"
+          },
+          "jie/jos": { 
+            "form": "atsiprašė", 
+            "example": "Jie atsiprašė kitų", 
+            "translation": "They apologized to others",
+            "stress": "at-si-prã-šė"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "atsiprašysiu", 
+            "example": "Aš atsiprašysiu rytoj", 
+            "translation": "I will apologize tomorrow",
+            "stress": "at-si-pra-šý-siu"
+          },
+          "tu": { 
+            "form": "atsiprašysi", 
+            "example": "Tu atsiprašysi jos?", 
+            "translation": "Will you apologize to her?",
+            "stress": "at-si-pra-šý-si"
+          },
+          "jis/ji": { 
+            "form": "atsiprašys", 
+            "example": "Jis atsiprašys vėliau", 
+            "translation": "He will apologize later",
+            "stress": "at-si-pra-šýs"
+          },
+          "mes": { 
+            "form": "atsiprašysime", 
+            "example": "Mes atsiprašysime už viską", 
+            "translation": "We will apologize for everything",
+            "stress": "at-si-pra-šý-si-me"
+          },
+          "jūs": { 
+            "form": "atsiprašysite", 
+            "example": "Jūs atsiprašysite po pietų", 
+            "translation": "You will apologize after lunch",
+            "stress": "at-si-pra-šý-si-te"
+          },
+          "jie/jos": { 
+            "form": "atsiprašys", 
+            "example": "Jie atsiprašys grupės", 
+            "translation": "They will apologize to the group",
+            "stress": "at-si-pra-šýs"
+          }
+        },
+        "conditional": {
+          "aš": {
+            "form": "atsiprašyčiau",
+            "example": "Atsiprašyčiau, jei žinočiau",
+            "translation": "I would apologize if I knew",
+            "stress": "at-si-pra-šý-čiau"
+          },
+          "tu": {
+            "form": "atsiprašytum",
+            "example": "Tu atsiprašytum, jei galėtum?",
+            "translation": "Would you apologize if you could?",
+            "stress": "at-si-pra-šý-tum"
+          },
+          "jis/ji": {
+            "form": "atsiprašytų",
+            "example": "Jis atsiprašytų dėl to įvykio",
+            "translation": "He would apologize for that incident",
+            "stress": "at-si-pra-šý-tų"
+          },
+          "mes": {
+            "form": "atsiprašytume",
+            "example": "Mes atsiprašytume, jei reikėtų",
+            "translation": "We would apologize if it were necessary",
+            "stress": "at-si-pra-šý-tu-me"
+          },
+          "jūs": {
+            "form": "atsiprašytumėte",
+            "example": "Jūs atsiprašytumėte, ar ne?",
+            "translation": "You would apologize, wouldn't you?",
+            "stress": "at-si-pra-šý-tu-mė-te"
+          },
+          "jie/jos": {
+            "form": "atsiprašytų",
+            "example": "Jie atsiprašytų, bet negali",
+            "translation": "They would apologize, but they can't",
+            "stress": "at-si-pra-šý-tų"
+          }
+        },
+        "imperative": {
+          "tu": {
+            "form": "atsiprašyk",
+            "example": "Atsiprašyk jo!",
+            "translation": "Apologize to him!",
+            "stress": "at-si-pra-šýk"
+          },
+          "mes": {
+            "form": "atsiprašykime",
+            "example": "Atsiprašykime už šią nesėkmę",
+            "translation": "Let's apologize for this failure",
+            "stress": "at-si-pra-šý-ki-me"
+          },
+          "jūs": {
+            "form": "atsiprašykite",
+            "example": "Atsiprašykite už nepatogumus",
+            "translation": "Apologize for the inconvenience",
+            "stress": "at-si-pra-šý-ki-te"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lithuanian Vocabulary Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="app-title">
+                        <i class="fas fa-book-open"></i>
+                        Lithuanian Vocabulary Builder
+                    </h1>
+                    <p class="app-subtitle">Master Lithuanian vocabulary with context and repetition</p>
+                </div>
+                <nav class="header-nav">
+                    <a href="index.html" class="nav-link active">
+                        <i class="fas fa-book"></i>
+                        Vocabulary Builder
+                    </a>
+                    <a href="conjugation.html" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        Conjugation Trainer
+                    </a>
+                    <button class="nav-link" id="tts-settings-btn" title="Text-to-Speech Settings">
+                        <i class="fas fa-volume-up"></i>
+                        TTS Settings
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Feature Cards -->
+        <div class="feature-cards">
+            <div class="feature-card">
+                
+                <div class="feature-content">
+                    <h3>Vocabulary Builder</h3>
+                    <p>Learn Lithuanian phrases with context, examples, and spaced repetition</p>
+                    <span class="feature-badge">Current Page</span>
+                </div>
+            </div>
+            <div class="feature-card clickable" onclick="window.location.href='conjugation.html'">
+                
+                <div class="feature-content">
+                    <h3>Conjugation Trainer</h3>
+                    <p>Master verb conjugations with interactive practice and gamification</p>
+                    <span class="feature-badge new">New!</span>
+                </div>
+                <div class="feature-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <nav class="tab-navigation">
+            <button class="tab-button active" data-tab="vocabulary">
+                <i class="fas fa-cards-blank"></i>
+                Vocabulary Builder
+            </button>
+            <button class="tab-button" data-tab="flashcards">
+                <i class="fas fa-layer-group"></i>
+                Flashcards
+            </button>
+            <button class="tab-button" data-tab="quiz">
+                <i class="fas fa-question-circle"></i>
+                Quiz
+            </button>
+            <button class="tab-button" data-tab="progress">
+                <i class="fas fa-chart-line"></i>
+                Progress
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Vocabulary Builder Tab -->
+            <div id="vocabulary" class="tab-content active">
+                <div class="vocabulary-layout">
+                    <div class="vocabulary-main">
+                        <div class="section-header">
+                            <h2>Vocabulary Builder</h2>
+                            <div class="controls">
+                                <button class="btn btn-secondary" id="reset-data-btn" title="Reset and reload all data from JSON files">
+                                    <i class="fas fa-refresh"></i>
+                                    Reset Data
+                                </button>
+                                <button class="btn btn-primary" id="add-word-btn">
+                                    <i class="fas fa-plus"></i>
+                                    Add New Phrase
+                                </button>
+                                <button class="btn btn-secondary" id="practice-btn">
+                                    <i class="fas fa-play"></i>
+                                    Start Practice
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Vocabulary Grid -->
+                        <div class="vocabulary-grid" id="vocabulary-grid">
+                            <!-- Vocabulary cards will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Topics Sidebar -->
+                    <div class="topics-sidebar">
+                        <h3>Topics</h3>
+                        <div class="topic-filters" id="topic-filters">
+                            <!-- Topics will be populated by JavaScript from topics/config.json -->
+                        </div>
+                        
+                        <div class="topic-info">
+                            <div class="topic-stats">
+                                <h4 id="selected-topic-name">All Phrases</h4>
+                                <p id="topic-count">0 phrases</p>
+                                <p id="topic-mastered">0 mastered</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Add Word Form (Hidden by default) -->
+                    <div class="modal" id="add-word-modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Add New Word</h3>
+                                <button class="close-modal" id="close-modal">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                            <form id="add-word-form">
+                                <div class="form-group">
+                                    <label for="lithuanian-word">Lithuanian Word</label>
+                                    <input type="text" id="lithuanian-word" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="english-translation">English Translation</label>
+                                    <input type="text" id="english-translation" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="part-of-speech">Part of Speech</label>
+                                    <select id="part-of-speech">
+                                        <option value="noun">Noun</option>
+                                        <option value="verb">Verb</option>
+                                        <option value="adjective">Adjective</option>
+                                        <option value="adverb">Adverb</option>
+                                        <option value="preposition">Preposition</option>
+                                        <option value="conjunction">Conjunction</option>
+                                        <option value="interjection">Interjection</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="example-sentence">Example Sentence (Lithuanian)</label>
+                                    <textarea id="example-sentence" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sentence-translation">Sentence Translation (English)</label>
+                                    <textarea id="sentence-translation" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="topic">Topic Category</label>
+                                    <select id="topic">
+                                        <!-- Topics will be populated dynamically from config.json -->
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="difficulty">Difficulty Level</label>
+                                    <select id="difficulty">
+                                        <option value="beginner">Beginner</option>
+                                        <option value="intermediate">Intermediate</option>
+                                        <option value="advanced">Advanced</option>
+                                    </select>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="button" class="btn btn-secondary" id="cancel-add">Cancel</button>
+                                    <button type="submit" class="btn btn-primary">Add Word</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flashcards Tab -->
+            <div id="flashcards" class="tab-content">
+                <div class="flashcard-section">
+                    <div class="section-header">
+                        <h2>Flashcards</h2>
+                        <div class="flashcard-controls">
+                            <button class="btn btn-secondary" id="shuffle-btn">
+                                <i class="fas fa-shuffle"></i>
+                                Shuffle
+                            </button>
+                            <span class="card-counter" id="card-counter">1 of 10</span>
+                        </div>
+                    </div>
+
+                    <div class="flashcard-container" id="flashcard-container">
+                        <div class="flashcard" id="flashcard">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <div class="word-display">
+                                        <h3 class="lithuanian-word" id="card-lithuanian">Labas</h3>
+                                        <button class="pronunciation-btn" id="pronounce-btn">
+                                            <i class="fas fa-volume-up"></i>
+                                        </button>
+                                    </div>
+                                    <p class="part-of-speech" id="card-pos">interjection</p>
+                                </div>
+                                <div class="flashcard-back">
+                                    <div class="translation">
+                                        <h3 id="card-translation">Hello</h3>
+                                    </div>
+                                    <div class="example-context">
+                                        <div class="example-sentence-container">
+                                            <p class="example-sentence" id="card-example">Labas rytas! Kaip sekasi?</p>
+                                            <button class="example-pronunciation-btn" id="pronounce-example-btn" title="Listen to example pronunciation">
+                                                <i class="fas fa-volume-up"></i>
+                                            </button>
+                                        </div>
+                                        <p class="example-translation" id="card-example-translation">Good morning! How is it going?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flashcard-navigation">
+                            <button class="nav-btn" id="prev-card">
+                                <i class="fas fa-chevron-left"></i>
+                                Previous
+                            </button>
+                            <button class="flip-btn" id="flip-card">
+                                <i class="fas fa-sync-alt"></i>
+                                Flip Card
+                            </button>
+                            <button class="nav-btn" id="next-card">
+                                Next
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+
+                        <div class="difficulty-feedback">
+                            <p>How well did you know this word?</p>
+                            <div class="feedback-buttons">
+                                <button class="feedback-btn difficult" data-difficulty="1">
+                                    <i class="fas fa-times"></i>
+                                    Difficult
+                                </button>
+                                <button class="feedback-btn medium" data-difficulty="2">
+                                    <i class="fas fa-minus"></i>
+                                    Medium
+                                </button>
+                                <button class="feedback-btn easy" data-difficulty="3">
+                                    <i class="fas fa-check"></i>
+                                    Easy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Tab -->
+            <div id="quiz" class="tab-content">
+                <div class="quiz-section">
+                    <div class="section-header">
+                        <h2>Quiz</h2>
+                        <div class="quiz-controls">
+                            <button class="btn btn-primary" id="start-quiz-btn">
+                                <i class="fas fa-play"></i>
+                                Start Quiz
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="quiz-container" id="quiz-container">
+                        <!-- Quiz content will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress Tab -->
+            <div id="progress" class="tab-content">
+                <div class="progress-section">
+                    <div class="section-header">
+                        <h2>Your Progress</h2>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="total-words">0</h3>
+                                <p>Total Words</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="mastered-words">0</h3>
+                                <p>Mastered</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="study-time">0</h3>
+                                <p>Minutes Studied</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="streak-days">0</h3>
+                                <p>Day Streak</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- TTS Settings Modal -->
+    <div class="modal" id="tts-settings-modal">
+        <div class="modal-content tts-settings">
+            <div class="modal-header">
+                <h3>
+                    <i class="fas fa-volume-up"></i>
+                    Text-to-Speech Settings
+                </h3>
+                <button class="close-modal" id="close-tts-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="tts-settings-content">
+                <!-- TTS Server Status -->
+                <div class="setting-group">
+                    <label>Lithuanian TTS Server Status</label>
+                    <div class="server-status" id="server-status">
+                        <div class="status-check">
+                            <i class="fas fa-server"></i>
+                            <span id="server-status-text">Checking server...</span>
+                            <button type="button" id="check-server" class="btn btn-secondary">
+                                <i class="fas fa-refresh"></i> Check Server
+                            </button>
+                        </div>
+                        <div class="server-info" id="server-info" style="display: none;">
+                            <div class="info-item">
+                                <i class="fas fa-link"></i>
+                                <span>Server: http://localhost:3001</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-microphone"></i>
+                                <span>Voice: Lithuanian Standard Female (lt-LT-Standard-A)</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-database"></i>
+                                <span>Smart caching enabled</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Batch TTS Generation -->
+                <div class="setting-group">
+                    <label>Batch Audio Generation</label>
+                    <div class="batch-controls">
+                        <p>Pre-generate audio for all vocabulary in current topic to improve performance:</p>
+                        <div class="batch-buttons">
+                            <button type="button" id="generate-current-topic" class="btn btn-primary">
+                                <i class="fas fa-magic"></i>
+                                Generate Current Topic
+                            </button>
+                            <button type="button" id="generate-all-topics" class="btn btn-secondary">
+                                <i class="fas fa-globe"></i>
+                                Generate All Topics
+                            </button>
+                        </div>
+                        <div id="batch-progress" class="batch-progress" style="display: none;">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill"></div>
+                            </div>
+                            <div class="progress-text" id="progress-text">Generating audio...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Test TTS -->
+                <div class="setting-group">
+                    <label>Test Text-to-Speech</label>
+                    <div class="tts-test">
+                        <input type="text" id="test-text" placeholder="Enter Lithuanian text to test..." value="Labas rytas! Kaip sekasi?">
+                        <button type="button" id="test-tts" class="btn btn-secondary">
+                            <i class="fas fa-play"></i>
+                            Test Lithuanian
+                        </button>
+                        <button type="button" id="test-tts-en" class="btn btn-secondary">
+                            <i class="fas fa-play"></i>
+                            Test English
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cache Statistics -->
+                <div class="setting-group">
+                    <label>Cache Statistics</label>
+                    <div class="cache-stats" id="cache-stats">
+                        <button type="button" id="show-cache-stats" class="btn btn-secondary">
+                            <i class="fas fa-chart-bar"></i>
+                            Show Cache Stats
+                        </button>
+                        <div id="cache-stats-display"></div>
+                    </div>
+                </div>
+
+                <!-- Server Setup Instructions -->
+                <div class="setting-group" id="server-instructions" style="display: none;">
+                    <label>How to Start TTS Server</label>
+                    <div class="setup-instructions">
+                        <div class="instruction-header">
+                            <i class="fas fa-info-circle"></i>
+                            <strong>Start the Lithuanian TTS Server:</strong>
+                        </div>
+                        <ol class="setup-steps">
+                            <li>Open terminal/command prompt</li>
+                            <li>Navigate to: <code>cd texttospeech</code></li>
+                            <li>Run server: <code>node tts-server.js</code></li>
+                            <li>Server should start on port 3001</li>
+                            <li>Click "Check Server" button above</li>
+                        </ol>
+                        <div class="note">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Note:</strong> The server uses your Google Cloud credentials from cloud-key.json
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lithuanian TTS Client -->
+    <script src="../scripts/lithuanian-tts-client.js"></script>
+    
+    <!-- Legacy Data Systems (still needed) -->
+    <script src="../scripts/vocabulary-data.js"></script>
+    <script src="../scripts/srs-system.js"></script>
+    
+    <!-- New Architecture Core -->
+    <script src="../src/core/AudioManager.js"></script>
+    <script src="../src/ui/UIManager.js"></script>
+    <script src="../src/core/BasePage.js"></script>
+    <script src="../src/pages/VocabularyPage.js"></script>
+    <script src="../src/core/AppCore.js"></script>
+</body>
+</html>

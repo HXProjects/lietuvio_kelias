@@ -1,0 +1,25 @@
+{
+  "name": "lithuanian-vocabulary-builder",
+  "version": "1.0.0",
+  "description": "Lithuanian Language Learning Platform with Vocabulary Builder and Conjugation Trainer",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "tts": "node texttospeech/tts-server.js",
+    "dev": "concurrently \"npm run tts\" \"npm run start\"",
+    "server": "node server/server.js",
+    "tts-server": "node texttospeech/tts-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.3.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["lithuanian", "language-learning", "vocabulary", "conjugation", "tts"],
+  "author": "",
+  "license": "MIT"
+}

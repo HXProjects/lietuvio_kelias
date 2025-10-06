@@ -1,0 +1,80 @@
+{
+  "topic": "health",
+  "displayName": "Health & Emergency",
+  "icon": "fas fa-heart-pulse",
+  "description": "Medical and emergency phrases for healthcare situations and pharmacy visits",
+  "phrases": [
+    {
+      "lithuanian": "Man reikia gydytojo",
+      "english": "I need a doctor",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man reikia gydytojo. Kur yra artimiausia ligoninė?",
+      "sentenceTranslation": "I need a doctor. Where is the nearest hospital?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Man skauda galvą",
+      "english": "I have a headache",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man skauda galvą. Ar turite vaistų nuo skausmo?",
+      "sentenceTranslation": "I have a headache. Do you have pain medication?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Iškvieskite greitąją pagalbą!",
+      "english": "Call an ambulance!",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Iškvieskite greitąją pagalbą! Žmogui blogai!",
+      "sentenceTranslation": "Call an ambulance! The person is in bad condition!",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Kur yra vaistinė?",
+      "english": "Where is the pharmacy?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kur yra vaistinė? Man reikia antibiotiokų.",
+      "sentenceTranslation": "Where is the pharmacy? I need antibiotics.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Man karščiuoja",
+      "english": "I have a fever",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man karščiuoja jau trečią dieną. Ar reikia eiti pas gydytoją?",
+      "sentenceTranslation": "I've had a fever for three days. Should I see a doctor?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Aš esu nėščia",
+      "english": "I am pregnant",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš esu nėščia. Ar šie vaistai man tinka?",
+      "sentenceTranslation": "I am pregnant. Are these medications suitable for me?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Man reikia recepto",
+      "english": "I need a prescription",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man reikia recepto šiems vaistams. Kur galiu jį gauti?",
+      "sentenceTranslation": "I need a prescription for these medications. Where can I get it?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Aš jaučiuosi silpnas/silpna",
+      "english": "I feel weak",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš jaučiuosi silpnas ir svaigstu. Ar galite pagalbėti?",
+      "sentenceTranslation": "I feel weak and dizzy. Can you help?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar turite draudimą?",
+      "english": "Do you have insurance?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite sveikatos draudimą? Mums reikia dokumentų.",
+      "sentenceTranslation": "Do you have health insurance? We need the documents.",
+      "difficulty": "advanced"
+    }
+  ]
+}

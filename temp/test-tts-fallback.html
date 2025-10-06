@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TTS Fallback Test</title>
+</head>
+<body>
+    <h1>TTS Fallback Test</h1>
+    <button onclick="testTTS()">Test TTS</button>
+    <div id="result"></div>
+    
+    <script>
+        async function testTTS() {
+            const ttsClient = new LithuanianTTSClient();
+            const result = document.getElementById('result');
+            
+            try {
+                result.innerHTML = 'Testing TTS server availability...<br>';
+                const isAvailable = await ttsClient.isServerAvailable();
+                result.innerHTML += `TTS Server Available: ${isAvailable}<br>`;
+                
+                result.innerHTML += 'Testing audio generation for "Ką padarysi!"...<br>';
+                const audioUrl = await ttsClient.getAudioUrl('Ką padarysi!');
+                result.innerHTML += `Audio URL: ${audioUrl}<br>`;
+                
+                result.innerHTML += 'Playing audio...<br>';
+                await ttsClient.playAudio(audioUrl);
+                result.innerHTML += 'Audio played successfully!<br>';
+                
+            } catch (error) {
+                result.innerHTML += `Error: ${error.message}<br>`;
+                console.error('TTS Test Error:', error);
+            }
+        }
+    </script>
+    <script src="lithuanian-tts-client.js"></script>
+</body>
+</html>

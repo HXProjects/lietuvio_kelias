@@ -1,0 +1,338 @@
+{
+  "verbs": [
+    {
+      "infinitive": "būti",
+      "english": "to be",
+      "type": "irregular",
+      "conjugationGroup": "irregular",
+      "transitivity": "intransitive",
+      "aspectPair": null,
+      "government": {
+        "case": "nominative",
+        "description": "Takes nominative complement (predicate nominative)",
+        "example": "Aš esu mokytojas (I am a teacher)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "esu", 
+            "example": "Aš esu studentas", 
+            "translation": "I am a student"
+          },
+          "tu": { 
+            "form": "esi", 
+            "example": "Tu esi geras", 
+            "translation": "You are good"
+          },
+          "jis/ji": { 
+            "form": "yra", 
+            "example": "Jis yra mokytojas", 
+            "translation": "He is a teacher"
+          },
+          "mes": { 
+            "form": "esame", 
+            "example": "Mes esame draugai", 
+            "translation": "We are friends"
+          },
+          "jūs": { 
+            "form": "esate", 
+            "example": "Jūs esate malonūs", 
+            "translation": "You are kind"
+          },
+          "jie/jos": { 
+            "form": "yra", 
+            "example": "Jie yra namuose", 
+            "translation": "They are at home"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "buvau", 
+            "example": "Aš buvau mokykloje", 
+            "translation": "I was at school"
+          },
+          "tu": { 
+            "form": "buvai", 
+            "example": "Tu buvai ten", 
+            "translation": "You were there"
+          },
+          "jis/ji": { 
+            "form": "buvo", 
+            "example": "Jis buvo laimingas", 
+            "translation": "He was happy"
+          },
+          "mes": { 
+            "form": "buvome", 
+            "example": "Mes buvome kartu", 
+            "translation": "We were together"
+          },
+          "jūs": { 
+            "form": "buvote", 
+            "example": "Jūs buvote teisūs", 
+            "translation": "You were right"
+          },
+          "jie/jos": { 
+            "form": "buvo", 
+            "example": "Jie buvo užsiėmę", 
+            "translation": "They were busy"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "būsiu", 
+            "example": "Aš būsiu gydytojas", 
+            "translation": "I will be a doctor"
+          },
+          "tu": { 
+            "form": "būsi", 
+            "example": "Tu būsi sėkmingas", 
+            "translation": "You will be successful"
+          },
+          "jis/ji": { 
+            "form": "bus", 
+            "example": "Jis bus čia", 
+            "translation": "He will be here"
+          },
+          "mes": { 
+            "form": "būsime", 
+            "example": "Mes būsime pasiruošę", 
+            "translation": "We will be ready"
+          },
+          "jūs": { 
+            "form": "būsite", 
+            "example": "Jūs būsite patenkinti", 
+            "translation": "You will be satisfied"
+          },
+          "jie/jos": { 
+            "form": "bus", 
+            "example": "Jie bus laimingi", 
+            "translation": "They will be happy"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "turėti",
+      "english": "to have",
+      "type": "regular",
+      "conjugationGroup": "II",
+      "transitivity": "transitive",
+      "aspectPair": null,
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš turiu knygą (I have a book - book is in accusative)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "turiu", 
+            "example": "Aš turiu knygą", 
+            "translation": "I have a book"
+          },
+          "tu": { 
+            "form": "turi", 
+            "example": "Tu turi laiką", 
+            "translation": "You have time"
+          },
+          "jis/ji": { 
+            "form": "turi", 
+            "example": "Jis turi šunį", 
+            "translation": "He has a dog"
+          },
+          "mes": { 
+            "form": "turime", 
+            "example": "Mes turime namų darbus", 
+            "translation": "We have homework"
+          },
+          "jūs": { 
+            "form": "turite", 
+            "example": "Jūs turite galimybę", 
+            "translation": "You have an opportunity"
+          },
+          "jie/jos": { 
+            "form": "turi", 
+            "example": "Jie turi mašiną", 
+            "translation": "They have a car"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "turėjau", 
+            "example": "Aš turėjau laiko", 
+            "translation": "I had time"
+          },
+          "tu": { 
+            "form": "turėjai", 
+            "example": "Tu turėjai tikslą", 
+            "translation": "You had a goal"
+          },
+          "jis/ji": { 
+            "form": "turėjo", 
+            "example": "Jis turėjo problemą", 
+            "translation": "He had a problem"
+          },
+          "mes": { 
+            "form": "turėjome", 
+            "example": "Mes turėjome svajonę", 
+            "translation": "We had a dream"
+          },
+          "jūs": { 
+            "form": "turėjote", 
+            "example": "Jūs turėjote teisę", 
+            "translation": "You had a right"
+          },
+          "jie/jos": { 
+            "form": "turėjo", 
+            "example": "Jie turėjo vilties", 
+            "translation": "They had hope"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "turėsiu", 
+            "example": "Aš turėsiu paklausimą", 
+            "translation": "I will have a question"
+          },
+          "tu": { 
+            "form": "turėsi", 
+            "example": "Tu turėsi progą", 
+            "translation": "You will have a chance"
+          },
+          "jis/ji": { 
+            "form": "turės", 
+            "example": "Jis turės sprendimą", 
+            "translation": "He will have a decision"
+          },
+          "mes": { 
+            "form": "turėsime", 
+            "example": "Mes turėsime susitikimą", 
+            "translation": "We will have a meeting"
+          },
+          "jūs": { 
+            "form": "turėsite", 
+            "example": "Jūs turėsite atsakymą", 
+            "translation": "You will have an answer"
+          },
+          "jie/jos": { 
+            "form": "turės", 
+            "example": "Jie turės rezultatų", 
+            "translation": "They will have results"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "daryti",
+      "english": "to do/make",
+      "type": "regular",
+      "conjugationGroup": "I",
+      "transitivity": "transitive",
+      "aspectPair": "padaryti",
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš darau namų darbus (I do homework - homework is in accusative)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "darau", 
+            "example": "Aš darau namų darbus", 
+            "translation": "I do homework"
+          },
+          "tu": { 
+            "form": "darai", 
+            "example": "Tu darai kavą", 
+            "translation": "You make coffee"
+          },
+          "jis/ji": { 
+            "form": "daro", 
+            "example": "Jis daro klaidą", 
+            "translation": "He makes a mistake"
+          },
+          "mes": { 
+            "form": "darome", 
+            "example": "Mes darome projektą", 
+            "translation": "We do a project"
+          },
+          "jūs": { 
+            "form": "darote", 
+            "example": "Jūs darote sprendimą", 
+            "translation": "You make a decision"
+          },
+          "jie/jos": { 
+            "form": "daro", 
+            "example": "Jie daro pažangą", 
+            "translation": "They make progress"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "dariau", 
+            "example": "Aš dariau mankštą", 
+            "translation": "I did exercise"
+          },
+          "tu": { 
+            "form": "darei", 
+            "example": "Tu darei klausimą", 
+            "translation": "You asked a question"
+          },
+          "jis/ji": { 
+            "form": "darė", 
+            "example": "Jis darė pažadą", 
+            "translation": "He made a promise"
+          },
+          "mes": { 
+            "form": "darėme", 
+            "example": "Mes darėme planą", 
+            "translation": "We made a plan"
+          },
+          "jūs": { 
+            "form": "darėte", 
+            "example": "Jūs darėte teisingai", 
+            "translation": "You did correctly"
+          },
+          "jie/jos": { 
+            "form": "darė", 
+            "example": "Jie darė darbą", 
+            "translation": "They did work"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "darysiu", 
+            "example": "Aš darysiu viską", 
+            "translation": "I will do everything"
+          },
+          "tu": { 
+            "form": "darysi", 
+            "example": "Tu darysi tai gerai", 
+            "translation": "You will do it well"
+          },
+          "jis/ji": { 
+            "form": "darys", 
+            "example": "Jis darys ką nors", 
+            "translation": "He will do something"
+          },
+          "mes": { 
+            "form": "darysime", 
+            "example": "Mes darysime savo geriausiai", 
+            "translation": "We will do our best"
+          },
+          "jūs": { 
+            "form": "darysite", 
+            "example": "Jūs darysite teisingą sprendimą", 
+            "translation": "You will make the right decision"
+          },
+          "jie/jos": { 
+            "form": "darys", 
+            "example": "Jie darys pažangą", 
+            "translation": "They will make progress"
+          }
+        }
+      }
+    }
+  ]
+}
+

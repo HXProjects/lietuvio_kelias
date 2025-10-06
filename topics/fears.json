@@ -1,0 +1,224 @@
+{
+  "topic": "fears",
+  "displayName": "Fears & Failures",
+  "icon": "fas fa-exclamation-triangle",
+  "description": "Phrases for discussing fears, failures, and overcoming challenges",
+  "phrases": [
+  {
+    "lithuanian": "Kur yra problema?",
+    "english": "Where is the problem?",
+    "partOfSpeech": "question (using 'problemą')",
+    "exampleSentence": "Atsiprašau, aš nesuprantu, kur yra problema?",
+    "sentenceTranslation": "Excuse me, I don't understand, where is the problem?",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Aš turiu sprendimą.",
+    "english": "I have a solution.",
+    "partOfSpeech": "statement (using 'sprendimą')",
+    "exampleSentence": "Aš pagalvojau. Manau, kad aš turiu sprendimą!",
+    "sentenceTranslation": "I thought about it. I think I have a solution!",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Mano baimė didelė.",
+    "english": "My fear is big.",
+    "partOfSpeech": "statement (using 'baimė')",
+    "exampleSentence": "Aš bijau. Mano baimė didelė.",
+    "sentenceTranslation": "I am afraid. My fear is big.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Šis stalas yra stiprus.",
+    "english": "This table is strong.",
+    "partOfSpeech": "statement (using 'stipri')",
+    "exampleSentence": "Šis stalas atrodo senas, bet jis yra stiprus.",
+    "sentenceTranslation": "This table looks old, but it is strong.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Aš esu jaunas žmogus.",
+    "english": "I am a young person.",
+    "partOfSpeech": "statement (using 'jaunų žmonių')",
+    "exampleSentence": "Aš dar studijuoju. Aš esu jaunas žmogus.",
+    "sentenceTranslation": "I am still studying. I am a young person.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Turiu tris išeitis.",
+    "english": "I have three ways out / three exits.",
+    "partOfSpeech": "statement (using 'tris išeitis')",
+    "exampleSentence": "Nėra tik vieno kelio. Turiu tris išeitis.",
+    "sentenceTranslation": "There is not only one way. I have three ways out.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Aš turiu teisę kalbėti.",
+    "english": "I have the right to speak.",
+    "partOfSpeech": "statement (using 'teisė')",
+    "exampleSentence": "Nekalbėk už mane. Aš turiu teisę kalbėti.",
+    "sentenceTranslation": "Don't speak for me. I have the right to speak.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Gal aš klystu?",
+    "english": "Maybe I am wrong?",
+    "partOfSpeech": "question (using 'klysti')",
+    "exampleSentence": "Tu sakei 'ne'. Gal aš klystu?",
+    "sentenceTranslation": "You said 'no'. Maybe I am wrong?",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Tai yra mano pareiga.",
+    "english": "It is my duty.",
+    "partOfSpeech": "statement (using 'pareiga')",
+    "exampleSentence": "Aš turiu dirbti šiandien. Tai yra mano pareiga.",
+    "sentenceTranslation": "I have to work today. It is my duty.",
+    "difficulty": "A2+"
+  },
+  {
+    "lithuanian": "Aš esu prieš.",
+    "english": "I am against (it).",
+    "partOfSpeech": "statement (using 'prieš')",
+    "exampleSentence": "Daugelis sako 'taip', bet aš esu prieš.",
+    "sentenceTranslation": "Many people say 'yes', but I am against (it).",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Kur žiniasklaida?",
+    "english": "Where is the media?",
+    "partOfSpeech": "question (using 'žiniasklaidos')",
+    "exampleSentence": "Noriu pamatyti naujienas. Kur žiniasklaida?",
+    "sentenceTranslation": "I want to see the news. Where is the media?",
+    "difficulty": "A2+"
+  },
+  {
+    "lithuanian": "Tai yra teisinga.",
+    "english": "That is fair / correct.",
+    "partOfSpeech": "statement (using 'teisinga')",
+    "exampleSentence": "Tavo nuomonė yra teisinga.",
+    "sentenceTranslation": "Your opinion is fair/correct.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Aš bijau klysti.",
+    "english": "I am afraid to make a mistake.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Prieš egzaminą aš visada bijau klysti.",
+    "sentenceTranslation": "Before the exam, I am always afraid to make a mistake.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Tai yra nesėkmė.",
+    "english": "That is a failure.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Nepasisekė. Tai yra nesėkmė.",
+    "sentenceTranslation": "It didn't work out. That is a failure.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Aš galiu bandyti dar kartą.",
+    "english": "I can try again.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Niekas baisaus. Aš galiu bandyti dar kartą.",
+    "sentenceTranslation": "Nothing terrible. I can try again.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Man reikia sėkmės.",
+    "english": "I need success / good luck.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Šiandien man reikia sėkmės, nes turiu susitikimą.",
+    "sentenceTranslation": "Today I need good luck, because I have a meeting.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Nebijok!",
+    "english": "Don't be afraid! (Imperative)",
+    "partOfSpeech": "command",
+    "exampleSentence": "Tu gerai moki. Nebijok kalbėti!",
+    "sentenceTranslation": "You know well. Don't be afraid to speak!",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Noriu bandyti.",
+    "english": "I want to try.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Nesu tikras, bet noriu bandyti naują maistą.",
+    "sentenceTranslation": "I am not sure, but I want to try the new food.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Jis klysta visada.",
+    "english": "He makes mistakes all the time.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Jis skuba, todėl klysta visada.",
+    "sentenceTranslation": "He rushes, so he makes mistakes all the time.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Mokytis yra svarbu.",
+    "english": "To learn is important.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Net po nesėkmės, mokytis yra svarbu.",
+    "sentenceTranslation": "Even after failure, to learn is important.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Tu gali tai padaryti.",
+    "english": "You can do it.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Turi idėją, todėl tu gali tai padaryti!",
+    "sentenceTranslation": "You have an idea, so you can do it!",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Mokykis iš klaidų.",
+    "english": "Learn from mistakes.",
+    "partOfSpeech": "command",
+    "exampleSentence": "Klysti yra gerai. Mokykis iš klaidų.",
+    "sentenceTranslation": "To make mistakes is good. Learn from mistakes.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Tai yra gera patirtis.",
+    "english": "That is a good experience.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Nors nepasisekė, tai yra gera patirtis.",
+    "sentenceTranslation": "Although it didn't succeed, that is a good experience.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Būk drąsus!",
+    "english": "Be brave! / Be courageous!",
+    "partOfSpeech": "command",
+    "exampleSentence": "Nebijok kalbėti. Būk drąsus!",
+    "sentenceTranslation": "Don't be afraid to speak. Be brave!",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Viskas bus gerai.",
+    "english": "Everything will be fine.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Nereikia nerimauti. Viskas bus gerai.",
+    "sentenceTranslation": "No need to worry. Everything will be fine.",
+    "difficulty": "A1"
+  },
+  {
+    "lithuanian": "Svarbu yra bandyti.",
+    "english": "It is important to try.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Rezultatas nežinomas, bet svarbu yra bandyti.",
+    "sentenceTranslation": "The result is unknown, but it is important to try.",
+    "difficulty": "A2"
+  },
+  {
+    "lithuanian": "Laukia sėkmė.",
+    "english": "Success is waiting.",
+    "partOfSpeech": "statement",
+    "exampleSentence": "Po darbo ir pastangų, laukia sėkmė!",
+    "sentenceTranslation": "After work and effort, success is waiting!",
+    "difficulty": "A2"
+  }
+  ]
+}

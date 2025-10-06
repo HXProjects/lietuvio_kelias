@@ -1,0 +1,80 @@
+{
+  "topic": "weather",
+  "displayName": "Weather & Time",
+  "icon": "fas fa-cloud-sun",
+  "description": "Weather conditions, time inquiries, and seasonal conversations",
+  "phrases": [
+    {
+      "lithuanian": "Kokia šiandien temperatūra?",
+      "english": "What's the temperature today?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kokia šiandien temperatūra? Ar reikės striukės?",
+      "sentenceTranslation": "What's the temperature today? Will I need a jacket?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kiek dabar valandų?",
+      "english": "What time is it now?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Atsiprašau, kiek dabar valandų? Mano laikrodis sustojo.",
+      "sentenceTranslation": "Excuse me, what time is it now? My watch stopped.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Šiandien labai šalta",
+      "english": "It's very cold today",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Šiandien labai šalta. Reikės šilto palto.",
+      "sentenceTranslation": "It's very cold today. I'll need a warm coat.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar rytoj lis?",
+      "english": "Will it rain tomorrow?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar rytoj lis? Planuoju išvyką į gamtą.",
+      "sentenceTranslation": "Will it rain tomorrow? I'm planning a trip to nature.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kada prasidės pavasaris?",
+      "english": "When will spring begin?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kada prasidės pavasaris? Nekantriai laukiu šilto oro.",
+      "sentenceTranslation": "When will spring begin? I'm eagerly waiting for warm weather.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Šiandien gražus oras",
+      "english": "It's beautiful weather today",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Šiandien gražus oras! Puiki diena pasivaikščiojimui.",
+      "sentenceTranslation": "It's beautiful weather today! Perfect day for a walk.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Kelintos valandos susitinkame?",
+      "english": "What time are we meeting?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kelintos valandos susitinkame rytoj? Ar 18:00 tinka?",
+      "sentenceTranslation": "What time are we meeting tomorrow? Does 6 PM work?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Labai karšta vasara",
+      "english": "Very hot summer",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Šiemet labai karšta vasara. Reikia daugiau gerti vandens.",
+      "sentenceTranslation": "This year is a very hot summer. Need to drink more water.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar turite laiko?",
+      "english": "Do you have time?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite laiko pasikalbėti? Turiu svarbų klausimą.",
+      "sentenceTranslation": "Do you have time to talk? I have an important question.",
+      "difficulty": "intermediate"
+    }
+  ]
+}

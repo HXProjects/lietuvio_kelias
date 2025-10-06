@@ -1,0 +1,722 @@
+﻿{
+    "argalitemanpadÄ—ti":  {
+                               "originalText":  "Ar galite man padÄ—ti?",
+                               "filename":  "argalitemanpadÄ—ti.mp3",
+                               "generatedAt":  "2025-09-28T12:40:58.122Z",
+                               "fileSize":  13824,
+                               "voice":  "lt-LT-Standard-A",
+                               "speakingRate":  0.85
+                           },
+    "labasrytaskaipsekasi":  {
+                                 "originalText":  "Labas rytas! Kaip sekasi?",
+                                 "filename":  "labasrytaskaipsekasi.mp3",
+                                 "generatedAt":  "2025-09-28T12:40:56.084Z",
+                                 "fileSize":  20352,
+                                 "voice":  "lt-LT-Standard-A",
+                                 "speakingRate":  0.85
+                             },
+    "aÅ¡ieÅ¡kausveikopasirinkimo":  {
+                                        "originalText":  "AÅ¡ ieÅ¡kau sveiko pasirinkimo.",
+                                        "filename":  "aÅ¡ieÅ¡kausveikopasirinkimo.mp3",
+                                        "generatedAt":  "2025-09-28T14:52:15.800Z",
+                                        "fileSize":  19008,
+                                        "voice":  "lt-LT-Standard-A",
+                                        "speakingRate":  0.85
+                                    },
+    "aÅ¡tikÅ¾iÅ«rinÄ—ju":  {
+                               "originalText":  "AÅ¡ tik Å¾iÅ«rinÄ—ju",
+                               "filename":  "aÅ¡tikÅ¾iÅ«rinÄ—ju.mp3",
+                               "generatedAt":  "2025-09-28T14:49:08.215Z",
+                               "fileSize":  10752,
+                               "voice":  "lt-LT-Standard-A",
+                               "speakingRate":  0.85
+                           },
+    "tuesigeras":  {
+                       "originalText":  "Tu esi geras",
+                       "filename":  "tuesigeras.mp3",
+                       "generatedAt":  "2025-09-29T07:33:07.397Z",
+                       "fileSize":  10944,
+                       "voice":  "lt-LT-Standard-A",
+                       "speakingRate":  0.85
+                   },
+    "labasrytas":  {
+                       "originalText":  "Labas rytas",
+                       "filename":  "labasrytas.mp3",
+                       "generatedAt":  "2025-09-28T12:40:56.290Z",
+                       "fileSize":  11520,
+                       "voice":  "lt-LT-Standard-A",
+                       "speakingRate":  0.85
+                   },
+    "manskaudagalvÄ…":  {
+                            "originalText":  "Man skauda galvÄ…",
+                            "filename":  "manskaudagalvÄ….mp3",
+                            "generatedAt":  "2025-09-28T14:59:50.936Z",
+                            "fileSize":  12480,
+                            "voice":  "lt-LT-Standard-A",
+                            "speakingRate":  0.85
+                        },
+    "aÅ¡norÄ—ÄiauuÅ¾sisakyti":  {
+                                     "originalText":  "AÅ¡ norÄ—Äiau uÅ¾sisakyti...",
+                                     "filename":  "aÅ¡norÄ—ÄiauuÅ¾sisakyti.mp3",
+                                     "generatedAt":  "2025-09-28T14:50:57.102Z",
+                                     "fileSize":  16704,
+                                     "voice":  "lt-LT-Standard-A",
+                                     "speakingRate":  0.85
+                                 },
+    "rezultatasneÅ¾inomasbetsvarbuyrabandyti":  {
+                                                    "originalText":  "Rezultatas neÅ¾inomas, bet svarbu yra bandyti.",
+                                                    "filename":  "rezultatasneÅ¾inomasbetsvarbuyrabandyti.mp3",
+                                                    "generatedAt":  "2025-10-03T07:53:20.102Z",
+                                                    "fileSize":  29952,
+                                                    "voice":  "lt-LT-Standard-A",
+                                                    "speakingRate":  0.85
+                                                },
+    "atsipraÅ¡auaÅ¡nesuprantukuryraproblema":  {
+                                                   "originalText":  "AtsipraÅ¡au, aÅ¡ nesuprantu, kur yra problema?",
+                                                   "filename":  "atsipraÅ¡auaÅ¡nesuprantukuryraproblema.mp3",
+                                                   "generatedAt":  "2025-10-03T07:48:53.979Z",
+                                                   "fileSize":  29568,
+                                                   "voice":  "lt-LT-Standard-A",
+                                                   "speakingRate":  0.85
+                                               },
+    "argalitepadarytinuolaidÄ…":  {
+                                      "originalText":  "Ar galite padaryti nuolaidÄ…?",
+                                      "filename":  "argalitepadarytinuolaidÄ….mp3",
+                                      "generatedAt":  "2025-09-30T13:26:58.542Z",
+                                      "fileSize":  16896,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "praÅ¡om":  {
+                    "originalText":  "PraÅ¡om",
+                    "filename":  "praÅ¡om.mp3",
+                    "generatedAt":  "2025-09-28T12:40:57.019Z",
+                    "fileSize":  7104,
+                    "voice":  "lt-LT-Standard-A",
+                    "speakingRate":  0.85
+                },
+    "aÅ¡pagalvojaumanaukadaÅ¡turiusprendimÄ…":  {
+                                                    "originalText":  "AÅ¡ pagalvojau. Manau, kad aÅ¡ turiu sprendimÄ…!",
+                                                    "filename":  "aÅ¡pagalvojaumanaukadaÅ¡turiusprendimÄ….mp3",
+                                                    "generatedAt":  "2025-10-03T07:49:05.762Z",
+                                                    "fileSize":  29760,
+                                                    "voice":  "lt-LT-Standard-A",
+                                                    "speakingRate":  0.85
+                                                },
+    "darau":  {
+                  "originalText":  "darau",
+                  "filename":  "darau.mp3",
+                  "generatedAt":  "2025-09-28T14:26:33.245Z",
+                  "fileSize":  6336,
+                  "voice":  "lt-LT-Standard-A",
+                  "speakingRate":  0.85
+              },
+    "manreikiasÄ—kmÄ—s":  {
+                              "originalText":  "Man reikia sÄ—kmÄ—s.",
+                              "filename":  "manreikiasÄ—kmÄ—s.mp3",
+                              "generatedAt":  "2025-10-03T07:52:12.108Z",
+                              "fileSize":  14016,
+                              "voice":  "lt-LT-Standard-A",
+                              "speakingRate":  0.85
+                          },
+    "aÅ¡keliaujuÄ¯paryÅ¾iÅ³":  {
+                                   "originalText":  "AÅ¡ keliauju Ä¯ ParyÅ¾iÅ³",
+                                   "filename":  "aÅ¡keliaujuÄ¯paryÅ¾iÅ³.mp3",
+                                   "generatedAt":  "2025-09-29T07:05:40.816Z",
+                                   "fileSize":  14208,
+                                   "voice":  "lt-LT-Standard-A",
+                                   "speakingRate":  0.85
+                               },
+    "tikiuosikadgeraipraleisilaikÄ…":  {
+                                           "originalText":  "Tikiuosi, kad gerai praleisi laikÄ….",
+                                           "filename":  "tikiuosikadgeraipraleisilaikÄ….mp3",
+                                           "generatedAt":  "2025-09-29T05:57:38.704Z",
+                                           "fileSize":  21888,
+                                           "voice":  "lt-LT-Standard-A",
+                                           "speakingRate":  0.85
+                                       },
+    "atsipraÅ¡au":  {
+                        "originalText":  "AtsipraÅ¡au",
+                        "filename":  "atsipraÅ¡au.mp3",
+                        "generatedAt":  "2025-09-28T12:40:57.342Z",
+                        "fileSize":  8832,
+                        "voice":  "lt-LT-Standard-A",
+                        "speakingRate":  0.85
+                    },
+    "labasrytaskaipjÅ«sÅ¡iandien":  {
+                                        "originalText":  "Labas rytas! Kaip jÅ«s Å¡iandien?",
+                                        "filename":  "labasrytaskaipjÅ«sÅ¡iandien.mp3",
+                                        "generatedAt":  "2025-09-28T14:57:15.969Z",
+                                        "fileSize":  21504,
+                                        "voice":  "lt-LT-Standard-A",
+                                        "speakingRate":  0.85
+                                    },
+    "skaitau":  {
+                    "originalText":  "skaitau",
+                    "filename":  "skaitau.mp3",
+                    "generatedAt":  "2025-09-30T13:28:42.704Z",
+                    "fileSize":  7488,
+                    "voice":  "lt-LT-Standard-A",
+                    "speakingRate":  0.85
+                },
+    "podarboirpastangÅ³laukiasÄ—kmÄ—":  {
+                                            "originalText":  "Po darbo ir pastangÅ³, laukia sÄ—kmÄ—!",
+                                            "filename":  "podarboirpastangÅ³laukiasÄ—kmÄ—.mp3",
+                                            "generatedAt":  "2025-10-03T07:52:55.573Z",
+                                            "fileSize":  26880,
+                                            "voice":  "lt-LT-Standard-A",
+                                            "speakingRate":  0.85
+                                        },
+    "kasnutiko":  {
+                      "originalText":  "Kas nutiko?",
+                      "filename":  "kasnutiko.mp3",
+                      "generatedAt":  "2025-10-03T07:47:51.766Z",
+                      "fileSize":  9600,
+                      "voice":  "lt-LT-Standard-A",
+                      "speakingRate":  0.85
+                  },
+    "jÅ«sturitegalimybÄ™":  {
+                                "originalText":  "JÅ«s turite galimybÄ™",
+                                "filename":  "jÅ«sturitegalimybÄ™.mp3",
+                                "generatedAt":  "2025-09-28T13:00:52.961Z",
+                                "fileSize":  13824,
+                                "voice":  "lt-LT-Standard-A",
+                                "speakingRate":  0.85
+                            },
+    "svarbuyrabandyti":  {
+                             "originalText":  "Svarbu yra bandyti.",
+                             "filename":  "svarbuyrabandyti.mp3",
+                             "generatedAt":  "2025-10-03T07:53:03.646Z",
+                             "fileSize":  14784,
+                             "voice":  "lt-LT-Standard-A",
+                             "speakingRate":  0.85
+                         },
+    "dÄ—kojuuÅ¾Å¡iltÄ…priÄ—mimÄ…":  {
+                                        "originalText":  "DÄ—koju uÅ¾ Å¡iltÄ… priÄ—mimÄ…",
+                                        "filename":  "dÄ—kojuuÅ¾Å¡iltÄ…priÄ—mimÄ….mp3",
+                                        "generatedAt":  "2025-09-29T05:56:12.139Z",
+                                        "fileSize":  17088,
+                                        "voice":  "lt-LT-Standard-A",
+                                        "speakingRate":  0.85
+                                    },
+    "tuvalgaipietus":  {
+                           "originalText":  "Tu valgai pietus",
+                           "filename":  "tuvalgaipietus.mp3",
+                           "generatedAt":  "2025-09-29T07:07:29.296Z",
+                           "fileSize":  12096,
+                           "voice":  "lt-LT-Standard-A",
+                           "speakingRate":  0.85
+                       },
+    "jiedaropaÅ¾angÄ…":  {
+                             "originalText":  "Jie daro paÅ¾angÄ…",
+                             "filename":  "jiedaropaÅ¾angÄ….mp3",
+                             "generatedAt":  "2025-09-29T07:05:08.070Z",
+                             "fileSize":  13248,
+                             "voice":  "lt-LT-Standard-A",
+                             "speakingRate":  0.85
+                         },
+    "niekonaujoviskasposenovei":  {
+                                      "originalText":  "Nieko naujo / Viskas po senovei.",
+                                      "filename":  "niekonaujoviskasposenovei.mp3",
+                                      "generatedAt":  "2025-09-29T05:57:07.526Z",
+                                      "fileSize":  22464,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "iÅ¡kvieskitegreitÄ…jÄ…pagalbÄ…":  {
+                                           "originalText":  "IÅ¡kvieskite greitÄ…jÄ… pagalbÄ…!",
+                                           "filename":  "iÅ¡kvieskitegreitÄ…jÄ…pagalbÄ….mp3",
+                                           "generatedAt":  "2025-09-28T14:59:58.420Z",
+                                           "fileSize":  18432,
+                                           "voice":  "lt-LT-Standard-A",
+                                           "speakingRate":  0.85
+                                       },
+    "malonusujumissusipaÅ¾inti":  {
+                                      "originalText":  "Malonu su jumis susipaÅ¾inti",
+                                      "filename":  "malonusujumissusipaÅ¾inti.mp3",
+                                      "generatedAt":  "2025-09-29T05:55:50.195Z",
+                                      "fileSize":  18432,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "aÅ¡jauÄiuosisilpnassilpna":  {
+                                       "originalText":  "AÅ¡ jauÄiuosi silpnas/silpna",
+                                       "filename":  "aÅ¡jauÄiuosisilpnassilpna.mp3",
+                                       "generatedAt":  "2025-09-28T15:01:41.128Z",
+                                       "fileSize":  20544,
+                                       "voice":  "lt-LT-Standard-A",
+                                       "speakingRate":  0.85
+                                   },
+    "aÅ¡skaitauknygÄ…":  {
+                             "originalText":  "AÅ¡ skaitau knygÄ…",
+                             "filename":  "aÅ¡skaitauknygÄ….mp3",
+                             "generatedAt":  "2025-09-30T13:28:45.524Z",
+                             "fileSize":  12288,
+                             "voice":  "lt-LT-Standard-A",
+                             "speakingRate":  0.85
+                         },
+    "jiskeliaujaÄ¯kalnus":  {
+                                "originalText":  "Jis keliauja Ä¯ kalnus",
+                                "filename":  "jiskeliaujaÄ¯kalnus.mp3",
+                                "generatedAt":  "2025-09-29T07:05:57.804Z",
+                                "fileSize":  15360,
+                                "voice":  "lt-LT-Standard-A",
+                                "speakingRate":  0.85
+                            },
+    "aÄiÅ«":  {
+                   "originalText":  "AÄiÅ«",
+                   "filename":  "aÄiÅ«.mp3",
+                   "generatedAt":  "2025-09-28T12:40:56.646Z",
+                   "fileSize":  5952,
+                   "voice":  "lt-LT-Standard-A",
+                   "speakingRate":  0.85
+               },
+    "sÄ—dÅ¾iu":  {
+                     "originalText":  "sÄ—dÅ¾iu",
+                     "filename":  "sÄ—dÅ¾iu.mp3",
+                     "generatedAt":  "2025-10-03T07:48:21.858Z",
+                     "fileSize":  6720,
+                     "voice":  "lt-LT-Standard-A",
+                     "speakingRate":  0.85
+                 },
+    "argalÄ—ÄiaugautisÄ…skaitÄ…":  {
+                                        "originalText":  "Ar galÄ—Äiau gauti sÄ…skaitÄ…?",
+                                        "filename":  "argalÄ—ÄiaugautisÄ…skaitÄ….mp3",
+                                        "generatedAt":  "2025-09-28T14:51:04.724Z",
+                                        "fileSize":  16896,
+                                        "voice":  "lt-LT-Standard-A",
+                                        "speakingRate":  0.85
+                                    },
+    "arturitevietÅ³Å¡iamvakarui":  {
+                                       "originalText":  "Ar turite vietÅ³ Å¡iam vakarui?",
+                                       "filename":  "arturitevietÅ³Å¡iamvakarui.mp3",
+                                       "generatedAt":  "2025-09-28T14:51:09.912Z",
+                                       "fileSize":  19008,
+                                       "voice":  "lt-LT-Standard-A",
+                                       "speakingRate":  0.85
+                                   },
+    "tikiuosikadÅ¡iandienviskasgreitaipraeis":  {
+                                                    "originalText":  "Tikiuosi, kad Å¡iandien viskas greitai praeis.",
+                                                    "filename":  "tikiuosikadÅ¡iandienviskasgreitaipraeis.mp3",
+                                                    "generatedAt":  "2025-10-03T07:00:05.147Z",
+                                                    "fileSize":  25920,
+                                                    "voice":  "lt-LT-Standard-A",
+                                                    "speakingRate":  0.85
+                                                },
+    "Å¡isstalasatrodosenasbetjisyrastiprus":  {
+                                                  "originalText":  "Å is stalas atrodo senas, bet jis yra stiprus.",
+                                                  "filename":  "Å¡isstalasatrodosenasbetjisyrastiprus.mp3",
+                                                  "generatedAt":  "2025-10-03T07:50:15.394Z",
+                                                  "fileSize":  31104,
+                                                  "voice":  "lt-LT-Standard-A",
+                                                  "speakingRate":  0.85
+                                              },
+    "Å¡isstalasyrastiprus":  {
+                                 "originalText":  "Å is stalas yra stiprus.",
+                                 "filename":  "Å¡isstalasyrastiprus.mp3",
+                                 "generatedAt":  "2025-10-03T07:49:53.930Z",
+                                 "fileSize":  17280,
+                                 "voice":  "lt-LT-Standard-A",
+                                 "speakingRate":  0.85
+                             },
+    "aÅ¡turiusprendimÄ…":  {
+                               "originalText":  "AÅ¡ turiu sprendimÄ….",
+                               "filename":  "aÅ¡turiusprendimÄ….mp3",
+                               "generatedAt":  "2025-10-03T07:25:35.459Z",
+                               "fileSize":  12096,
+                               "voice":  "lt-LT-Standard-A",
+                               "speakingRate":  0.85
+                           },
+    "linkiugraÅ¾iosdienos":  {
+                                 "originalText":  "Linkiu graÅ¾ios dienos",
+                                 "filename":  "linkiugraÅ¾iosdienos.mp3",
+                                 "generatedAt":  "2025-09-29T05:56:34.220Z",
+                                 "fileSize":  14400,
+                                 "voice":  "lt-LT-Standard-A",
+                                 "speakingRate":  0.85
+                             },
+    "argalÄ—Äiaupamatytimeniu":  {
+                                      "originalText":  "Ar galÄ—Äiau pamatyti meniu?",
+                                      "filename":  "argalÄ—Äiaupamatytimeniu.mp3",
+                                      "generatedAt":  "2025-09-28T14:50:52.226Z",
+                                      "fileSize":  15360,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "atsipraÅ¡auargalÄ—tumÄ—temanpadÄ—ti":  {
+                                                "originalText":  "AtsipraÅ¡au, ar galÄ—tumÄ—te man padÄ—ti?",
+                                                "filename":  "atsipraÅ¡auargalÄ—tumÄ—temanpadÄ—ti.mp3",
+                                                "generatedAt":  "2025-09-29T05:55:16.864Z",
+                                                "fileSize":  24576,
+                                                "voice":  "lt-LT-Standard-A",
+                                                "speakingRate":  0.85
+                                            },
+    "dabarsÄ—dÅ¾iupriekompiuterioiratliekuuÅ¾duotis":  {
+                                                           "originalText":  "Dabar sÄ—dÅ¾iu prie kompiuterio ir atlieku uÅ¾duotis.",
+                                                           "filename":  "dabarsÄ—dÅ¾iupriekompiuterioiratliekuuÅ¾duotis.mp3",
+                                                           "generatedAt":  "2025-10-03T07:48:26.967Z",
+                                                           "fileSize":  30336,
+                                                           "voice":  "lt-LT-Standard-A",
+                                                           "speakingRate":  0.85
+                                                       },
+    "kÄ…padarysi":  {
+                        "originalText":  "KÄ… padarysi!",
+                        "filename":  "kÄ…padarysi.mp3",
+                        "generatedAt":  "2025-10-03T06:59:49.830Z",
+                        "fileSize":  9984,
+                        "voice":  "lt-LT-Standard-A",
+                        "speakingRate":  0.85
+                    },
+    "kÄ…padarysidabarilsÄ—siuosiirvÄ—liauviskÄ…sutvarkysiu":  {
+                                                                  "originalText":  "KÄ… padarysi! Dabar ilsÄ—siuosi ir vÄ—liau viskÄ… sutvarkysiu.",
+                                                                  "filename":  "kÄ…padarysidabarilsÄ—siuosiirvÄ—liauviskÄ…sutvarkysiu.mp3",
+                                                                  "generatedAt":  "2025-10-03T07:36:57.388Z",
+                                                                  "fileSize":  36864,
+                                                                  "voice":  "lt-LT-Standard-A",
+                                                                  "speakingRate":  0.85
+                                                              },
+    "manreikiakvito":  {
+                           "originalText":  "Man reikia kvito",
+                           "filename":  "manreikiakvito.mp3",
+                           "generatedAt":  "2025-09-28T14:48:44.327Z",
+                           "fileSize":  12096,
+                           "voice":  "lt-LT-Standard-A",
+                           "speakingRate":  0.85
+                       },
+    "jÅ«skalbateapiesavodarbus":  {
+                                      "originalText":  "JÅ«s kalbate apie savo darbus",
+                                      "filename":  "jÅ«skalbateapiesavodarbus.mp3",
+                                      "generatedAt":  "2025-09-29T07:06:59.275Z",
+                                      "fileSize":  20352,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "kaiptaujumsviskasklostosi":  {
+                                      "originalText":  "Kaip tau (Jums) viskas klostosi?",
+                                      "filename":  "kaiptaujumsviskasklostosi.mp3",
+                                      "generatedAt":  "2025-09-29T05:56:55.857Z",
+                                      "fileSize":  25152,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "sÄ—kmÄ—staujumsgerosdienos":  {
+                                       "originalText":  "SÄ—kmÄ—s tau (Jums) / Geros dienos!",
+                                       "filename":  "sÄ—kmÄ—staujumsgerosdienos.mp3",
+                                       "generatedAt":  "2025-09-29T05:57:16.012Z",
+                                       "fileSize":  27072,
+                                       "voice":  "lt-LT-Standard-A",
+                                       "speakingRate":  0.85
+                                   },
+    "aÅ¡labaiatsipraÅ¡auuÅ¾vÄ—lavimÄ…":  {
+                                             "originalText":  "AÅ¡ labai atsipraÅ¡au uÅ¾ vÄ—lavimÄ….",
+                                             "filename":  "aÅ¡labaiatsipraÅ¡auuÅ¾vÄ—lavimÄ….mp3",
+                                             "generatedAt":  "2025-09-29T05:58:01.158Z",
+                                             "fileSize":  20928,
+                                             "voice":  "lt-LT-Standard-A",
+                                             "speakingRate":  0.85
+                                         },
+    "kurgaliurasti":  {
+                          "originalText":  "Kur galiu rasti...?",
+                          "filename":  "kurgaliurasti.mp3",
+                          "generatedAt":  "2025-09-28T14:48:31.875Z",
+                          "fileSize":  10368,
+                          "voice":  "lt-LT-Standard-A",
+                          "speakingRate":  0.85
+                      },
+    "meskalbameapiepolitikÄ…":  {
+                                    "originalText":  "Mes kalbame apie politikÄ…",
+                                    "filename":  "meskalbameapiepolitikÄ….mp3",
+                                    "generatedAt":  "2025-09-29T07:06:48.061Z",
+                                    "fileSize":  17088,
+                                    "voice":  "lt-LT-Standard-A",
+                                    "speakingRate":  0.85
+                                },
+    "argalimegautipapildomÅ³servetÄ—liÅ³":  {
+                                                "originalText":  "Ar galime gauti papildomÅ³ servetÄ—liÅ³?",
+                                                "filename":  "argalimegautipapildomÅ³servetÄ—liÅ³.mp3",
+                                                "generatedAt":  "2025-09-28T14:52:38.090Z",
+                                                "fileSize":  23424,
+                                                "voice":  "lt-LT-Standard-A",
+                                                "speakingRate":  0.85
+                                            },
+    "aÅ¡parduoduknygÄ…":  {
+                              "originalText":  "AÅ¡ parduodu knygÄ…",
+                              "filename":  "aÅ¡parduoduknygÄ….mp3",
+                              "generatedAt":  "2025-09-28T14:57:25.538Z",
+                              "fileSize":  12864,
+                              "voice":  "lt-LT-Standard-A",
+                              "speakingRate":  0.85
+                          },
+    "mesdaromeprojektÄ…":  {
+                               "originalText":  "Mes darome projektÄ…",
+                               "filename":  "mesdaromeprojektÄ….mp3",
+                               "generatedAt":  "2025-09-29T07:05:04.075Z",
+                               "fileSize":  14208,
+                               "voice":  "lt-LT-Standard-A",
+                               "speakingRate":  0.85
+                           },
+    "jÅ«sdarotesprendimÄ…":  {
+                                 "originalText":  "JÅ«s darote sprendimÄ…",
+                                 "filename":  "jÅ«sdarotesprendimÄ….mp3",
+                                 "generatedAt":  "2025-09-29T07:05:13.801Z",
+                                 "fileSize":  14592,
+                                 "voice":  "lt-LT-Standard-A",
+                                 "speakingRate":  0.85
+                             },
+    "aÅ¡esualergiÅ¡kasalergiÅ¡ka":  {
+                                        "originalText":  "AÅ¡ esu alergiÅ¡kas/alergiÅ¡ka...",
+                                        "filename":  "aÅ¡esualergiÅ¡kasalergiÅ¡ka.mp3",
+                                        "generatedAt":  "2025-09-28T14:51:19.089Z",
+                                        "fileSize":  24192,
+                                        "voice":  "lt-LT-Standard-A",
+                                        "speakingRate":  0.85
+                                    },
+    "kuryraproblema":  {
+                           "originalText":  "Kur yra problema?",
+                           "filename":  "kuryraproblema.mp3",
+                           "generatedAt":  "2025-10-03T07:13:56.193Z",
+                           "fileSize":  11328,
+                           "voice":  "lt-LT-Standard-A",
+                           "speakingRate":  0.85
+                       },
+    "atsipraÅ¡ytinorÄ—Äiau":  {
+                                   "originalText":  "AtsipraÅ¡yti norÄ—Äiau.",
+                                   "filename":  "atsipraÅ¡ytinorÄ—Äiau.mp3",
+                                   "generatedAt":  "2025-09-29T05:58:09.749Z",
+                                   "fileSize":  14208,
+                                   "voice":  "lt-LT-Standard-A",
+                                   "speakingRate":  0.85
+                               },
+    "prieÅ¡egzaminÄ…aÅ¡visadabijauklysti":  {
+                                                "originalText":  "PrieÅ¡ egzaminÄ… aÅ¡ visada bijau klysti.",
+                                                "filename":  "prieÅ¡egzaminÄ…aÅ¡visadabijauklysti.mp3",
+                                                "generatedAt":  "2025-10-03T07:52:38.345Z",
+                                                "fileSize":  24960,
+                                                "voice":  "lt-LT-Standard-A",
+                                                "speakingRate":  0.85
+                                            },
+    "arturitedidesnÄ¯dydÄ¯":  {
+                                  "originalText":  "Ar turite didesnÄ¯ dydÄ¯?",
+                                  "filename":  "arturitedidesnÄ¯dydÄ¯.mp3",
+                                  "generatedAt":  "2025-09-28T14:48:19.424Z",
+                                  "fileSize":  15552,
+                                  "voice":  "lt-LT-Standard-A",
+                                  "speakingRate":  0.85
+                              },
+    "manlabaigailakadvÄ—luoju":  {
+                                     "originalText":  "Man labai gaila, kad vÄ—luoju",
+                                     "filename":  "manlabaigailakadvÄ—luoju.mp3",
+                                     "generatedAt":  "2025-09-29T05:55:36.296Z",
+                                     "fileSize":  19776,
+                                     "voice":  "lt-LT-Standard-A",
+                                     "speakingRate":  0.85
+                                 },
+    "seniainesimatÄ—me":  {
+                              "originalText":  "Seniai nesimatÄ—me!",
+                              "filename":  "seniainesimatÄ—me.mp3",
+                              "generatedAt":  "2025-09-29T05:56:42.806Z",
+                              "fileSize":  13248,
+                              "voice":  "lt-LT-Standard-A",
+                              "speakingRate":  0.85
+                          },
+    "jisdaroklaidÄ…":  {
+                           "originalText":  "Jis daro klaidÄ…",
+                           "filename":  "jisdaroklaidÄ….mp3",
+                           "generatedAt":  "2025-09-29T07:05:19.530Z",
+                           "fileSize":  11712,
+                           "voice":  "lt-LT-Standard-A",
+                           "speakingRate":  0.85
+                       },
+    "jiekalbanamuose":  {
+                            "originalText":  "Jie kalba namuose",
+                            "filename":  "jiekalbanamuose.mp3",
+                            "generatedAt":  "2025-09-29T07:07:05.717Z",
+                            "fileSize":  12672,
+                            "voice":  "lt-LT-Standard-A",
+                            "speakingRate":  0.85
+                        },
+    "nuoÅ¡irdÅ¾iaidÄ—kojuuÅ¾jÅ«sÅ³pagalbÄ…":  {
+                                                  "originalText":  "NuoÅ¡irdÅ¾iai dÄ—koju uÅ¾ JÅ«sÅ³ pagalbÄ….",
+                                                  "filename":  "nuoÅ¡irdÅ¾iaidÄ—kojuuÅ¾jÅ«sÅ³pagalbÄ….mp3",
+                                                  "generatedAt":  "2025-09-29T05:58:24.992Z",
+                                                  "fileSize":  23808,
+                                                  "voice":  "lt-LT-Standard-A",
+                                                  "speakingRate":  0.85
+                                              },
+    "taiyramanopareiga":  {
+                              "originalText":  "Tai yra mano pareiga.",
+                              "filename":  "taiyramanopareiga.mp3",
+                              "generatedAt":  "2025-10-03T07:52:22.547Z",
+                              "fileSize":  14208,
+                              "voice":  "lt-LT-Standard-A",
+                              "speakingRate":  0.85
+                          },
+    "arpriimatekreditineskorteles":  {
+                                         "originalText":  "Ar priimate kreditines korteles?",
+                                         "filename":  "arpriimatekreditineskorteles.mp3",
+                                         "generatedAt":  "2025-09-28T14:50:31.521Z",
+                                         "fileSize":  20544,
+                                         "voice":  "lt-LT-Standard-A",
+                                         "speakingRate":  0.85
+                                     },
+    "sulabunaktimi":  {
+                          "originalText":  "Su labu naktimi!",
+                          "filename":  "sulabunaktimi.mp3",
+                          "generatedAt":  "2025-09-29T05:56:02.325Z",
+                          "fileSize":  10944,
+                          "voice":  "lt-LT-Standard-A",
+                          "speakingRate":  0.85
+                      },
+    "armaitaspatiekiamaskarÅ¡tas":  {
+                                        "originalText":  "Ar maitas patiekiamas karÅ¡tas?",
+                                        "filename":  "armaitaspatiekiamaskarÅ¡tas.mp3",
+                                        "generatedAt":  "2025-09-28T14:51:56.423Z",
+                                        "fileSize":  19584,
+                                        "voice":  "lt-LT-Standard-A",
+                                        "speakingRate":  0.85
+                                    },
+    "mesvalgomekartu":  {
+                            "originalText":  "Mes valgome kartu",
+                            "filename":  "mesvalgomekartu.mp3",
+                            "generatedAt":  "2025-09-29T07:07:35.132Z",
+                            "fileSize":  12864,
+                            "voice":  "lt-LT-Standard-A",
+                            "speakingRate":  0.85
+                        },
+    "atsipraÅ¡auargalÄ—tumÄ—temanpadÄ—tirastiautobusÅ³stotÄ¯":  {
+                                                                    "originalText":  "AtsipraÅ¡au, ar galÄ—tumÄ—te man padÄ—ti rasti autobusÅ³ stotÄ¯?",
+                                                                    "filename":  "atsipraÅ¡auargalÄ—tumÄ—temanpadÄ—tirastiautobusÅ³stotÄ¯.mp3",
+                                                                    "generatedAt":  "2025-10-03T07:29:11.083Z",
+                                                                    "fileSize":  36288,
+                                                                    "voice":  "lt-LT-Standard-A",
+                                                                    "speakingRate":  0.85
+                                                                },
+    "atleiskiteuÅ¾nepatogumÄ…":  {
+                                     "originalText":  "Atleiskite uÅ¾ nepatogumÄ…",
+                                     "filename":  "atleiskiteuÅ¾nepatogumÄ….mp3",
+                                     "generatedAt":  "2025-09-29T05:56:20.990Z",
+                                     "fileSize":  16512,
+                                     "voice":  "lt-LT-Standard-A",
+                                     "speakingRate":  0.85
+                                 },
+    "visolabousedforaslightlymorefinalordrawnoutgoodbye":  {
+                                                               "originalText":  "Viso labo! (Used for a slightly more final or drawn-out goodbye)",
+                                                               "filename":  "visolabousedforaslightlymorefinalordrawnoutgoodbye.mp3",
+                                                               "generatedAt":  "2025-09-29T05:57:25.996Z",
+                                                               "fileSize":  36288,
+                                                               "voice":  "lt-LT-Standard-A",
+                                                               "speakingRate":  0.85
+                                                           },
+    "kiektaikainuoja":  {
+                            "originalText":  "Kiek tai kainuoja?",
+                            "filename":  "kiektaikainuoja.mp3",
+                            "generatedAt":  "2025-09-28T12:40:57.703Z",
+                            "fileSize":  11328,
+                            "voice":  "lt-LT-Standard-A",
+                            "speakingRate":  0.85
+                        },
+    "labaiaÄiÅ«uÅ¾jÅ«sÅ³kantrybÄ™":  {
+                                          "originalText":  "Labai aÄiÅ« uÅ¾ jÅ«sÅ³ kantrybÄ™",
+                                          "filename":  "labaiaÄiÅ«uÅ¾jÅ«sÅ³kantrybÄ™.mp3",
+                                          "generatedAt":  "2025-09-29T05:55:23.781Z",
+                                          "fileSize":  20352,
+                                          "voice":  "lt-LT-Standard-A",
+                                          "speakingRate":  0.85
+                                      },
+    "tukeliaujiautobusu":  {
+                               "originalText":  "Tu keliauji autobusu",
+                               "filename":  "tukeliaujiautobusu.mp3",
+                               "generatedAt":  "2025-09-29T07:05:46.878Z",
+                               "fileSize":  14016,
+                               "voice":  "lt-LT-Standard-A",
+                               "speakingRate":  0.85
+                           },
+    "padavÄ—jauargaliteprieiti":  {
+                                      "originalText":  "PadavÄ—jau, ar galite prieiti?",
+                                      "filename":  "padavÄ—jauargaliteprieiti.mp3",
+                                      "generatedAt":  "2025-09-28T14:51:44.993Z",
+                                      "fileSize":  20352,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "argaliujumskuonorspadÄ—ti":  {
+                                      "originalText":  "Ar galiu jums kuo nors padÄ—ti?",
+                                      "filename":  "argaliujumskuonorspadÄ—ti.mp3",
+                                      "generatedAt":  "2025-09-29T05:55:44.171Z",
+                                      "fileSize":  18048,
+                                      "voice":  "lt-LT-Standard-A",
+                                      "speakingRate":  0.85
+                                  },
+    "tavonuomonÄ—yrateisinga":  {
+                                    "originalText":  "Tavo nuomonÄ— yra teisinga.",
+                                    "filename":  "tavonuomonÄ—yrateisinga.mp3",
+                                    "generatedAt":  "2025-10-03T07:51:53.837Z",
+                                    "fileSize":  17856,
+                                    "voice":  "lt-LT-Standard-A",
+                                    "speakingRate":  0.85
+                                },
+    "aÅ¡daraunamÅ³darbus":  {
+                                "originalText":  "AÅ¡ darau namÅ³ darbus",
+                                "filename":  "aÅ¡daraunamÅ³darbus.mp3",
+                                "generatedAt":  "2025-09-29T07:05:31.364Z",
+                                "fileSize":  14784,
+                                "voice":  "lt-LT-Standard-A",
+                                "speakingRate":  0.85
+                            },
+    "kuogalÄ—ÄiaujumspadÄ—ti":  {
+                                     "originalText":  "Kuo galÄ—Äiau Jums padÄ—ti?",
+                                     "filename":  "kuogalÄ—ÄiaujumspadÄ—ti.mp3",
+                                     "generatedAt":  "2025-09-29T05:58:35.076Z",
+                                     "fileSize":  14976,
+                                     "voice":  "lt-LT-Standard-A",
+                                     "speakingRate":  0.85
+                                 },
+    "tuturilaikÄ…":  {
+                         "originalText":  "Tu turi laikÄ…",
+                         "filename":  "tuturilaikÄ….mp3",
+                         "generatedAt":  "2025-09-28T15:02:16.678Z",
+                         "fileSize":  9984,
+                         "voice":  "lt-LT-Standard-A",
+                         "speakingRate":  0.85
+                     },
+    "tudaraikavÄ…":  {
+                         "originalText":  "Tu darai kavÄ…",
+                         "filename":  "tudaraikavÄ….mp3",
+                         "generatedAt":  "2025-09-29T07:05:27.498Z",
+                         "fileSize":  10176,
+                         "voice":  "lt-LT-Standard-A",
+                         "speakingRate":  0.85
+                     },
+    "aÅ¡bijauklysti":  {
+                           "originalText":  "AÅ¡ bijau klysti.",
+                           "filename":  "aÅ¡bijauklysti.mp3",
+                           "generatedAt":  "2025-10-03T07:52:32.031Z",
+                           "fileSize":  11712,
+                           "voice":  "lt-LT-Standard-A",
+                           "speakingRate":  0.85
+                       },
+    "laukiasÄ—kmÄ—":  {
+                          "originalText":  "Laukia sÄ—kmÄ—.",
+                          "filename":  "laukiasÄ—kmÄ—.mp3",
+                          "generatedAt":  "2025-10-03T07:52:51.092Z",
+                          "fileSize":  10752,
+                          "voice":  "lt-LT-Standard-A",
+                          "speakingRate":  0.85
+                      },
+    "mataukadnuotraukaiÅ¡ligoninÄ—skasnutiko":  {
+                                                    "originalText":  "Matau, kad nuotrauka iÅ¡ ligoninÄ—s. Kas nutiko?",
+                                                    "filename":  "mataukadnuotraukaiÅ¡ligoninÄ—skasnutiko.mp3",
+                                                    "generatedAt":  "2025-10-03T07:48:14.621Z",
+                                                    "fileSize":  32640,
+                                                    "voice":  "lt-LT-Standard-A",
+                                                    "speakingRate":  0.85
+                                                },
+    "turite":  {
+                   "originalText":  "turite",
+                   "filename":  "turite.mp3",
+                   "generatedAt":  "2025-09-28T13:00:50.353Z",
+                   "fileSize":  6720,
+                   "voice":  "lt-LT-Standard-A",
+                   "speakingRate":  0.85
+               }
+}

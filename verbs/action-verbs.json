@@ -1,0 +1,368 @@
+{
+  "verbs": [
+    {
+      "infinitive": "eiti",
+      "english": "to go (on foot)",
+      "type": "irregular",
+      "conjugationGroup": "I",
+      "transitivity": "intransitive",
+      "aspectPair": "nueiti",
+      "government": {
+        "case": "various",
+        "description": "Direction: į + accusative (into), Destination: link + genitive (towards)",
+        "example": "Aš einu į mokyklą (I go to school - direction)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "einu", 
+            "example": "Aš einu į mokyklą", 
+            "translation": "I go to school"
+          },
+          "tu": { 
+            "form": "eini", 
+            "example": "Tu eini namo", 
+            "translation": "You go home"
+          },
+          "jis/ji": { 
+            "form": "eina", 
+            "example": "Jis eina į darbą", 
+            "translation": "He goes to work"
+          },
+          "mes": { 
+            "form": "einame", 
+            "example": "Mes einame į parduotuvę", 
+            "translation": "We go to the store"
+          },
+          "jūs": { 
+            "form": "einate", 
+            "example": "Jūs einate į teatrą", 
+            "translation": "You go to the theater"
+          },
+          "jie/jos": { 
+            "form": "eina", 
+            "example": "Jie eina į parką", 
+            "translation": "They go to the park"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "ėjau", 
+            "example": "Aš ėjau per mišką", 
+            "translation": "I walked through the forest"
+          },
+          "tu": { 
+            "form": "ėjai", 
+            "example": "Tu ėjai greitai", 
+            "translation": "You walked fast"
+          },
+          "jis/ji": { 
+            "form": "ėjo", 
+            "example": "Jis ėjo lėtai", 
+            "translation": "He walked slowly"
+          },
+          "mes": { 
+            "form": "ėjome", 
+            "example": "Mes ėjome kartu", 
+            "translation": "We walked together"
+          },
+          "jūs": { 
+            "form": "ėjote", 
+            "example": "Jūs ėjote tiesiai", 
+            "translation": "You walked straight"
+          },
+          "jie/jos": { 
+            "form": "ėjo", 
+            "example": "Jie ėjo į kiną", 
+            "translation": "They went to the movies"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "eisiu", 
+            "example": "Aš eisiu rytoj", 
+            "translation": "I will go tomorrow"
+          },
+          "tu": { 
+            "form": "eisi", 
+            "example": "Tu eisi su manimi", 
+            "translation": "You will go with me"
+          },
+          "jis/ji": { 
+            "form": "eis", 
+            "example": "Jis eis į universitetą", 
+            "translation": "He will go to university"
+          },
+          "mes": { 
+            "form": "eisime", 
+            "example": "Mes eisime į kelionę", 
+            "translation": "We will go on a trip"
+          },
+          "jūs": { 
+            "form": "eisite", 
+            "example": "Jūs eisite į susitikimą", 
+            "translation": "You will go to a meeting"
+          },
+          "jie/jos": { 
+            "form": "eis", 
+            "example": "Jie eis į svečius", 
+            "translation": "They will go visiting"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "valgyti",
+      "english": "to eat",
+      "type": "regular",
+      "conjugationGroup": "I",
+      "transitivity": "transitive",
+      "aspectPair": "suvalgyti",
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš valgau obuolį (I eat an apple - apple is in accusative)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "valgau", 
+            "example": "Aš valgau obuolį", 
+            "translation": "I eat an apple"
+          },
+          "tu": { 
+            "form": "valgai", 
+            "example": "Tu valgai pietus", 
+            "translation": "You eat lunch"
+          },
+          "jis/ji": { 
+            "form": "valgo", 
+            "example": "Jis valgo duoną", 
+            "translation": "He eats bread"
+          },
+          "mes": { 
+            "form": "valgome", 
+            "example": "Mes valgome kartu", 
+            "translation": "We eat together"
+          },
+          "jūs": { 
+            "form": "valgote", 
+            "example": "Jūs valgote sveikai", 
+            "translation": "You eat healthy"
+          },
+          "jie/jos": { 
+            "form": "valgo", 
+            "example": "Jie valgo vakarienę", 
+            "translation": "They eat dinner"
+          }
+        },
+        "past": {
+          "aš": { 
+            "form": "valgiau", 
+            "example": "Aš valgiau pusryčius", 
+            "translation": "I ate breakfast"
+          },
+          "tu": { 
+            "form": "valgei", 
+            "example": "Tu valgei skaniai", 
+            "translation": "You ate deliciously"
+          },
+          "jis/ji": { 
+            "form": "valgė", 
+            "example": "Jis valgė mėsą", 
+            "translation": "He ate meat"
+          },
+          "mes": { 
+            "form": "valgėme", 
+            "example": "Mes valgėme restorane", 
+            "translation": "We ate at a restaurant"
+          },
+          "jūs": { 
+            "form": "valgėte", 
+            "example": "Jūs valgėte daug", 
+            "translation": "You ate a lot"
+          },
+          "jie/jos": { 
+            "form": "valgė", 
+            "example": "Jie valgė tortą", 
+            "translation": "They ate cake"
+          }
+        },
+        "future": {
+          "aš": { 
+            "form": "valgysiu", 
+            "example": "Aš valgysiu vakarienę", 
+            "translation": "I will eat dinner"
+          },
+          "tu": { 
+            "form": "valgysi", 
+            "example": "Tu valgysi su mumis", 
+            "translation": "You will eat with us"
+          },
+          "jis/ji": { 
+            "form": "valgys", 
+            "example": "Jis valgys namuose", 
+            "translation": "He will eat at home"
+          },
+          "mes": { 
+            "form": "valgysime", 
+            "example": "Mes valgysime picos", 
+            "translation": "We will eat pizza"
+          },
+          "jūs": { 
+            "form": "valgysite", 
+            "example": "Jūs valgysite saldainių", 
+            "translation": "You will eat candy"
+          },
+          "jie/jos": { 
+            "form": "valgys", 
+            "example": "Jie valgys žuvį", 
+            "translation": "They will eat fish"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "skaityti",
+      "english": "to read",
+      "type": "regular",
+      "conjugationGroup": "II",
+      "transitivity": "transitive",
+      "aspectPair": "perskaityti",
+      "government": {
+        "case": "accusative",
+        "description": "Takes direct object in accusative case",
+        "example": "Aš skaitau knygą (I read a book - book is in accusative case)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "skaitau", 
+            "example": "Aš skaitau knygą", 
+            "translation": "I read a book"
+          },
+          "tu": { 
+            "form": "skaitai", 
+            "example": "Tu skaitai laikraštį", 
+            "translation": "You read a newspaper"
+          },
+          "jis/ji": { 
+            "form": "skaito", 
+            "example": "Jis skaito straipsnį", 
+            "translation": "He reads an article"
+          },
+          "mes": { 
+            "form": "skaitome", 
+            "example": "Mes skaitome vadovėlį", 
+            "translation": "We read a textbook"
+          },
+          "jūs": { 
+            "form": "skaitote", 
+            "example": "Jūs skaitote žurnalą", 
+            "translation": "You read a magazine"
+          },
+          "jie/jos": { 
+            "form": "skaito", 
+            "example": "Jie skaito romaną", 
+            "translation": "They read a novel"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "keliauti",
+      "english": "to travel",
+      "type": "regular",
+      "conjugationGroup": "I",
+      "transitivity": "intransitive",
+      "aspectPair": "nukeliauti",
+      "government": {
+        "case": "various prepositions",
+        "description": "Commonly accompanied by preposition with destination",
+        "example": "Aš keliauju į miestą (I travel to the city)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "keliauju", 
+            "example": "Aš keliauju į Paryžių", 
+            "translation": "I travel to Paris"
+          },
+          "tu": { 
+            "form": "keliauji", 
+            "example": "Tu keliauji autobusu", 
+            "translation": "You travel by bus"
+          },
+          "jis/ji": { 
+            "form": "keliauja", 
+            "example": "Jis keliauja į kalnus", 
+            "translation": "He travels to the mountains"
+          },
+          "mes": { 
+            "form": "keliaujame", 
+            "example": "Mes keliaujame kartu", 
+            "translation": "We travel together"
+          },
+          "jūs": { 
+            "form": "keliaujate", 
+            "example": "Jūs keliaujate po pasaulį", 
+            "translation": "You travel around the world"
+          },
+          "jie/jos": { 
+            "form": "keliauja", 
+            "example": "Jie keliauja per Europą", 
+            "translation": "They travel through Europe"
+          }
+        }
+      }
+    },
+    {
+      "infinitive": "parduoti",
+      "english": "to sell",
+      "type": "regular",
+      "conjugationGroup": "I",
+      "transitivity": "transitive",
+      "aspectPair": "pardavinėti",
+      "government": {
+        "case": "accusative",
+        "description": "Objects sold are expressed in accusative case",
+        "example": "Aš parduodu automobilį (I sell a car)"
+      },
+      "conjugations": {
+        "present": {
+          "aš": { 
+            "form": "parduodu", 
+            "example": "Aš parduodu knygą", 
+            "translation": "I sell a book"
+          },
+          "tu": { 
+            "form": "parduodi", 
+            "example": "Tu parduodi mašiną", 
+            "translation": "You sell a car"
+          },
+          "jis/ji": { 
+            "form": "parduoda", 
+            "example": "Jis parduoda telefoną", 
+            "translation": "He sells a phone"
+          },
+          "mes": { 
+            "form": "parduodame", 
+            "example": "Mes parduodame drabužius", 
+            "translation": "We sell clothes"
+          },
+          "jūs": { 
+            "form": "parduodate", 
+            "example": "Jūs parduodate elektroniką", 
+            "translation": "You sell electronics"
+          },
+          "jie/jos": { 
+            "form": "parduoda", 
+            "example": "Jie parduoda namą", 
+            "translation": "They sell a house"
+          }
+        }
+      }
+    }
+  ]
+}
+

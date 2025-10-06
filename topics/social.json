@@ -1,0 +1,80 @@
+{
+  "topic": "social",
+  "displayName": "Social & Family",
+  "icon": "fas fa-users",
+  "description": "Social interactions, family conversations, and personal relationship phrases",
+  "phrases": [
+    {
+      "lithuanian": "Kaip sekasi darbai?",
+      "english": "How is work going?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Sveiki! Kaip sekasi darbai? Ar patinka nauja vieta?",
+      "sentenceTranslation": "Hello! How is work going? Do you like the new place?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar norėtumėte išgerti kavos?",
+      "english": "Would you like to have coffee?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar norėtumėte išgerti kavos rytoj? Galėtume susitikti centre.",
+      "sentenceTranslation": "Would you like to have coffee tomorrow? We could meet downtown.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kaip jūsų šeima?",
+      "english": "How is your family?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kaip jūsų šeima? Ar vaikai gerai mokosi mokykloje?",
+      "sentenceTranslation": "How is your family? Are the children doing well in school?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu jums padėti?",
+      "english": "Can I help you?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu jums padėti? Matau, kad kažko ieškote.",
+      "sentenceTranslation": "Can I help you? I see you're looking for something.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Mes turime susitikti dažniau",
+      "english": "We should meet more often",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Mes turime susitikti dažniau. Gal kas savaitę?",
+      "sentenceTranslation": "We should meet more often. Maybe once a week?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kaip laikaisi?",
+      "english": "How are you holding up?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Po to sunkaus laikotarpio, kaip laikaisi?",
+      "sentenceTranslation": "After that difficult period, how are you holding up?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar turite planų savaitgaliui?",
+      "english": "Do you have plans for the weekend?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite planų savaitgaliui? Gal norėtumėte važiuoti į gamtą?",
+      "sentenceTranslation": "Do you have plans for the weekend? Maybe you'd like to go to nature?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Su gimtadieniu!",
+      "english": "Happy birthday!",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Su gimtadieniu! Linkiu sveikatos ir laimės!",
+      "sentenceTranslation": "Happy birthday! I wish you health and happiness!",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Mes pasiilgome jūsų",
+      "english": "We missed you",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Mes pasiilgome jūsų per šias atostogas. Kaip sekėsi?",
+      "sentenceTranslation": "We missed you during this vacation. How did it go?",
+      "difficulty": "intermediate"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "topic": "travel",
+  "displayName": "Travel & Directions",
+  "icon": "fas fa-plane",
+  "description": "Essential phrases for transportation, navigation, hotels, and travel needs",
+  "phrases": [
+    {
+      "lithuanian": "Kaip patekti į oro uostą?",
+      "english": "How do I get to the airport?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Atsiprašau, kaip patekti į oro uostą? Ar yra autobusas?",
+      "sentenceTranslation": "Excuse me, how do I get to the airport? Is there a bus?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar šis autobusas važiuoja į centrą?",
+      "english": "Does this bus go to the center?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar šis autobusas važiuoja į centrą? Kiek kainuoja bilietas?",
+      "sentenceTranslation": "Does this bus go to the center? How much does a ticket cost?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Aš esu pasiklydęs/pasiklydusi",
+      "english": "I am lost",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Atsiprašau, aš esu pasiklydęs. Ar galite parodyti žemėlapyje?",
+      "sentenceTranslation": "Excuse me, I am lost. Can you show me on the map?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kur yra autobusų stotis?",
+      "english": "Where is the bus station?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kur yra autobusų stotis? Ar toli eiti pėsčiomis?",
+      "sentenceTranslation": "Where is the bus station? Is it far to walk?",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar turite laisvų kambarių?",
+      "english": "Do you have any rooms available?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite laisvų kambarių šiai nakčiai? Dviem asmenims.",
+      "sentenceTranslation": "Do you have any rooms available for tonight? For two people.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kiek kainuoja taksi į oro uostą?",
+      "english": "How much does a taxi to the airport cost?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kiek kainuoja taksi į oro uostą? Ar yra fiksuotas tarifas?",
+      "sentenceTranslation": "How much does a taxi to the airport cost? Is there a fixed rate?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galite iškviesti man taksi?",
+      "english": "Can you call a taxi for me?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite iškviesti man taksi? Reikia nuvykti į ligoninę.",
+      "sentenceTranslation": "Can you call a taxi for me? I need to go to the hospital.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kur galiu išsinuomoti automobilį?",
+      "english": "Where can I rent a car?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kur galiu išsinuomoti automobilį? Ar reikia tarptautinio vairuotojo pažymėjimo?",
+      "sentenceTranslation": "Where can I rent a car? Do I need an international driver's license?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Kada išvyksta paskutinis traukinys?",
+      "english": "When does the last train leave?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kada išvyksta paskutinis traukinys į Kauną? Ar dar spėsiu?",
+      "sentenceTranslation": "When does the last train to Kaunas leave? Will I still make it?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar tai toli nuo centro?",
+      "english": "Is this far from the center?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar tai toli nuo centro? Ar galima nueiti pėsčiomis?",
+      "sentenceTranslation": "Is this far from the center? Can you walk there?",
+      "difficulty": "beginner"
+    }
+  ]
+}

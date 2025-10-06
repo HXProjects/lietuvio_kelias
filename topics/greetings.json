@@ -1,0 +1,168 @@
+{
+  "topic": "greetings",
+  "displayName": "Greetings & Politeness",
+  "icon": "fas fa-hand-wave",
+  "description": "Essential greetings, polite expressions, and social courtesies for daily interactions",
+  "phrases": [
+    {
+      "lithuanian": "Labas rytas! Kaip jūs šiandien?",
+      "english": "Good morning! How are you today?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Labas rytas! Kaip jūs šiandien? Tikuosi, gerai miegojote.",
+      "sentenceTranslation": "Good morning! How are you today? I hope you slept well.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Atsiprašau, ar galėtumėte man padėti?",
+      "english": "Excuse me, could you help me?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Atsiprašau, ar galėtumėte man padėti rasti autobusų stotį?",
+      "sentenceTranslation": "Excuse me, could you help me find the bus station?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Labai ačiū už jūsų kantrybę",
+      "english": "Thank you very much for your patience",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Labai ačiū už jūsų kantrybę, aš tik mokausi kalbos.",
+      "sentenceTranslation": "Thank you very much for your patience, I'm just learning the language.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Man labai gaila, kad vėluoju",
+      "english": "I'm very sorry I'm late",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man labai gaila, kad vėluoju. Automobilyje buvo spūstis.",
+      "sentenceTranslation": "I'm very sorry I'm late. There was traffic.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu jums kuo nors padėti?",
+      "english": "Can I help you with anything?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu jums kuo nors padėti? Matau, kad ieškote kažko.",
+      "sentenceTranslation": "Can I help you with anything? I see you're looking for something.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Malonu su jumis susipažinti",
+      "english": "Nice to meet you",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Malonu su jumis susipažinti! Esu Jonas iš Vilniaus.",
+      "sentenceTranslation": "Nice to meet you! I'm Jonas from Vilnius.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Su labu naktimi!",
+      "english": "Good night!",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Su labu naktimi! Iki rytojaus pasimatymo.",
+      "sentenceTranslation": "Good night! See you tomorrow.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Dėkoju už šiltą priėmimą",
+      "english": "Thank you for the warm welcome",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Dėkoju už šiltą priėmimą! Jūs labai malonūs žmonės.",
+      "sentenceTranslation": "Thank you for the warm welcome! You are very nice people.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Atleiskite už nepatogumą",
+      "english": "Sorry for the inconvenience",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Atleiskite už nepatogumą. Stengsimės tai ištaisyti.",
+      "sentenceTranslation": "Sorry for the inconvenience. We'll try to fix this.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Linkiu gražios dienos",
+      "english": "Have a nice day",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Linkiu gražios dienos! Tikiuosi, kad viskas seksis.",
+      "sentenceTranslation": "Have a nice day! I hope everything goes well.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Seniai nesimatėme!",
+      "english": "Long time no see!",
+      "partOfSpeech": "greeting",
+      "exampleSentence": "O, labas, Ieva! Seniai nesimatėme! Kaip tau sekasi pastaruoju metu?",
+      "sentenceTranslation": "Oh, hello, Ieva! Long time no see! How have you been lately?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kaip tau (Jums) viskas klostosi?",
+      "english": "How are things developing for you? (general 'how are you' update)",
+      "partOfSpeech": "question",
+      "exampleSentence": "Labas, Jonai! Kaip tau viskas klostosi su nauju projektu?",
+      "sentenceTranslation": "Hello, Jonas! How are things developing for you with the new project?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Nieko naujo / Viskas po senovei.",
+      "english": "Nothing new / Everything is as before.",
+      "partOfSpeech": "response",
+      "exampleSentence": "Kaip gyveni? – Nieko naujo, o tu?",
+      "sentenceTranslation": "How are you living? – Nothing new, and you? (informal)",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Sėkmės tau (Jums) / Geros dienos!",
+      "english": "Good luck to you / Have a good day!",
+      "partOfSpeech": "farewell",
+      "exampleSentence": "Džiaugiuosi už tave! Sėkmės tau rytoj!",
+      "sentenceTranslation": "I am happy for you! Good luck to you tomorrow!",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Viso labo! (Used for a slightly more final or drawn-out goodbye)",
+      "english": "Farewell! / All the best!",
+      "partOfSpeech": "farewell",
+      "exampleSentence": "Man jau metas eiti. Viso labo ir dėkui už pokalbį.",
+      "sentenceTranslation": "It's time for me to go now. Farewell and thanks for the conversation.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Tikiuosi, kad gerai praleisi laiką.",
+      "english": "I hope you have a good time (will spend time well).",
+      "partOfSpeech": "well-wishing",
+      "exampleSentence": "Gera kelionė! Tikiuosi, kad gerai praleisi laiką Šventojoje.",
+      "sentenceTranslation": "Have a good trip! I hope you have a good time in Šventoji.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Aš labai atsiprašau už vėlavimą.",
+      "english": "I apologize deeply (or: I am very sorry for the delay).",
+      "partOfSpeech": "apology",
+      "exampleSentence": "Aš labai atsiprašau už vėlavimą, kamščiai buvo dideli.",
+      "sentenceTranslation": "I apologize deeply for the delay, the traffic jams were big.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Atsiprašyti norėčiau.",
+      "english": "I would like to apologize. (More formal and softer than a direct apology)",
+      "partOfSpeech": "apology",
+      "exampleSentence": "Atsiprašyti norėčiau dėl nesusipratimo vakar.",
+      "sentenceTranslation": "I would like to apologize for the misunderstanding yesterday.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Nuoširdžiai dėkoju už Jūsų pagalbą.",
+      "english": "I sincerely thank you for your help. (Formal, warm gratitude)",
+      "partOfSpeech": "gratitude",
+      "exampleSentence": "Nuoširdžiai dėkoju už Jūsų pagalbą; be jos nebūčiau susitvarkęs.",
+      "sentenceTranslation": "I sincerely thank you for your help; I wouldn't have managed without it.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kuo galėčiau Jums padėti?",
+      "english": "How might I be able to help you? (Conditional, polite offer)",
+      "partOfSpeech": "offer",
+      "exampleSentence": "Matau, kad ieškote kažko. Kuo galėčiau Jums padėti?",
+      "sentenceTranslation": "I see you are looking for something. How might I be able to help you?",
+      "difficulty": "intermediate"
+    }
+  ]
+}

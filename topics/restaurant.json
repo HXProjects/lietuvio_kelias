@@ -1,0 +1,568 @@
+{
+  "topic": "restaurant",
+  "displayName": "Restaurant & Food",
+  "icon": "fas fa-utensils",
+  "description": "Dining phrases for ordering food, dietary needs, and restaurant interactions",
+  "phrases": [
+    {
+      "lithuanian": "Ar galėčiau pamatyti meniu?",
+      "english": "Could I see the menu?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėčiau pamatyti meniu? Ar turite vegetarišką variantą?",
+      "sentenceTranslation": "Could I see the menu? Do you have a vegetarian option?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Aš norėčiau užsisakyti...",
+      "english": "I would like to order...",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš norėčiau užsisakyti cepelinų ir šaltos arbatos.",
+      "sentenceTranslation": "I would like to order cepelinai and cold tea.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galėčiau gauti sąskaitą?",
+      "english": "Could I get the bill?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėčiau gauti sąskaitą? Ar priimate kreditines korteles?",
+      "sentenceTranslation": "Could I get the bill? Do you accept credit cards?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar turite vietų šiam vakarui?",
+      "english": "Do you have tables available tonight?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite vietų šiam vakarui? Mums reikia staliuko keturiems.",
+      "sentenceTranslation": "Do you have tables available tonight? We need a table for four.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kas yra dienos patiekalas?",
+      "english": "What is the dish of the day?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kas yra dienos patiekalas? Ar jis aštrus?",
+      "sentenceTranslation": "What is the dish of the day? Is it spicy?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Aš esu alergiškas/alergiška...",
+      "english": "I'm allergic to...",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš esu alergiškas riešutams. Ar šiame patiekale jų yra?",
+      "sentenceTranslation": "I'm allergic to nuts. Does this dish contain any?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galite patiekti be mėsos?",
+      "english": "Can you serve it without meat?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite patiekti be mėsos? Aš vegetaras/vegetarė.",
+      "sentenceTranslation": "Can you serve it without meat? I'm a vegetarian.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Maistas puikus! Komplimentai virėjui",
+      "english": "The food is excellent! Compliments to the chef",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Maistas puikus! Komplimentai virėjui. Tikrai grįšime.",
+      "sentenceTranslation": "The food is excellent! Compliments to the chef. We'll definitely come back.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galiu gauti doggy bag?",
+      "english": "Can I get a doggy bag?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu gauti doggy bag? Nebaigiau valgyti, bet sotus.",
+      "sentenceTranslation": "Can I get a doggy bag? I didn't finish eating, but I'm full.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Padavėjau, ar galite prieiti?",
+      "english": "Waiter, could you come here?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Padavėjau, ar galite prieiti? Norėčiau dar vieno gėrimo.",
+      "sentenceTranslation": "Waiter, could you come here? I'd like another drink.",
+      "difficulty": "intermediate"
+    },
+        {
+      "lithuanian": "Ar priimate kreditines korteles?",
+      "english": "Do you accept credit cards?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar priimate kreditines korteles? Aš neturiu grynųjų pinigų.",
+      "sentenceTranslation": "Do you accept credit cards? I don't have cash.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar maitas patiekiamas karštas?",
+      "english": "Is the food served hot?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar maitas patiekiamas karštas? Norėčiau, kad būtų šiltas.",
+      "sentenceTranslation": "Is the food served hot? I would like it to be warm.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Aš ieškau sveiko pasirinkimo.",
+      "english": "I'm looking for a healthy option.",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Aš ieškau sveiko pasirinkimo. Ar galėtumėte ką nors rekomenduoti?",
+      "sentenceTranslation": "I'm looking for a healthy option. Could you recommend something?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar į patiekalą įeina gėrimas?",
+      "english": "Does the meal include a drink?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar į patiekalą įeina gėrimas? Jei ne, užsisakysiu atskirai.",
+      "sentenceTranslation": "Does the meal include a drink? If not, I'll order one separately.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galime gauti papildomų servetėlių?",
+      "english": "Could we get some more napkins?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galime gauti papildomų servetėlių? Vaikams jų prireiks.",
+      "sentenceTranslation": "Could we get some more napkins? The kids will need them.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar patiekalas turi daug druskos?",
+      "english": "Does the dish have a lot of salt?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar patiekalas turi daug druskos? Man reikia mažo sūraus maisto.",
+      "sentenceTranslation": "Does the dish have a lot of salt? I need low-sodium food.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Prašau gerti su mažiau ledo.",
+      "english": "Please, less ice in my drink.",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Prašau gerti su mažiau ledo, nes per daug šaltas.",
+      "sentenceTranslation": "Please, less ice in my drink because it's too cold.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar čia yra belaidis ryšys?",
+      "english": "Is there Wi-Fi here?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar čia yra belaidis ryšys? Norėčiau naudoti savo telefoną.",
+      "sentenceTranslation": "Is there Wi-Fi here? I'd like to use my phone.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Gėrimas yra per saldus man.",
+      "english": "The drink is too sweet for me.",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Gėrimas yra per saldus man. Ar galite padaryti jį mažiau saldų?",
+      "sentenceTranslation": "The drink is too sweet for me. Can you make it less sweet?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ačiū, aš jau pavalgiau.",
+      "english": "Thank you, I've had enough.",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ačiū, aš jau pavalgiau. Visa buvo puiku!",
+      "sentenceTranslation": "Thank you, I've had enough. Everything was amazing!",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar salotos patiekiamos su padažu?",
+      "english": "Are the salads served with dressing?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar salotos patiekiamos su padažu? Norėčiau jų be jo.",
+      "sentenceTranslation": "Are the salads served with dressing? I would like them without it.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar tai sezoninis patiekalas?",
+      "english": "Is this a seasonal dish?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar tai sezoninis patiekalas? Ieškau naudoti šviežius produktus.",
+      "sentenceTranslation": "Is this a seasonal dish? I'm looking for fresh ingredients.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu gauti vaikų porciją?",
+      "english": "Can I have a kid's portion?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu gauti vaikų porciją? Man mažai reikia.",
+      "sentenceTranslation": "Can I have a kid's portion? I don't need much.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Kiek kalorijų turi šis patiekalas?",
+      "english": "How many calories does this dish have?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kiek kalorijų turi šis patiekalas? Bandau valgyti sveikiau.",
+      "sentenceTranslation": "How many calories does this dish have? I'm trying to eat healthier.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Man nepatiko šis patiekalas.",
+      "english": "I didn't like this dish.",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Man nepatiko šis patiekalas. Gal galite pakeisti jį kitu?",
+      "sentenceTranslation": "I didn't like this dish. Could you replace it with something else?",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu paragauti vyno prieš užsisakydamas?",
+      "english": "Can I taste the wine before ordering?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu paragauti vyno prieš užsisakydamas? Noriu įsitikinti, kad jis man tinka.",
+      "sentenceTranslation": "Can I taste the wine before ordering? I want to make sure it's suitable for me.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galite pasiūlyti be aštraus skonio variantą?",
+      "english": "Can you suggest a non-spicy option?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite pasiūlyti be aštraus skonio variantą? Man nepatinka stipriai aštrus maistas.",
+      "sentenceTranslation": "Can you suggest a non-spicy option? I don't like overly spicy food.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galite atnešti gaivų vandenį?",
+      "english": "Could you bring sparkling water?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite atnešti gaivų vandenį? Aš renkuosi be ledo.",
+      "sentenceTranslation": "Could you bring sparkling water? I prefer it without ice.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar jūs turite alergijų meniu?",
+      "english": "Do you have an allergy menu?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar jūs turite alergijų meniu? Man reikia būti atsargiam dėl ingredientų.",
+      "sentenceTranslation": "Do you have an allergy menu? I need to be cautious about the ingredients.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar bufetas dar atidarytas?",
+      "english": "Is the buffet still open?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar bufetas dar atidarytas? Norėčiau patikrinti, ką turite.",
+      "sentenceTranslation": "Is the buffet still open? I'd like to see what you have.",
+      "difficulty": "beginner"
+    },
+        {
+      "lithuanian": "Ar galėtumėt pridėti daugiau padažo prie mano patiekalo?",
+      "english": "Could you add more sauce to my dish?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėtumėt pridėti daugiau padažo prie mano patiekalo? Jis atrodo kiek sausas.",
+      "sentenceTranslation": "Could you add more sauce to my dish? It seems a bit dry.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Koks yra jūsų populiariausias patiekalas?",
+      "english": "What is your most popular dish?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Koks yra jūsų populiariausias patiekalas? Noriu išbandyti kažką rekomenduojamo.",
+      "sentenceTranslation": "What is your most popular dish? I want to try something recommended.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galiu užsisakyti pusę porcijos?",
+      "english": "Can I order a half portion?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu užsisakyti pusę porcijos? Visa porcija yra man per didelė.",
+      "sentenceTranslation": "Can I order a half portion? A full portion is too much for me.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar tai be glitimo?",
+      "english": "Is this gluten-free?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar tai be glitimo? Aš turiu glitimo netoleranciją.",
+      "sentenceTranslation": "Is this gluten-free? I have gluten intolerance.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kaip gaminamas šis patiekalas?",
+      "english": "How is this dish prepared?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kaip gaminamas šis patiekalas? Noriu išgirsti apie jį daugiau.",
+      "sentenceTranslation": "How is this dish prepared? I’d like to hear more about it.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Šis patiekalas nėra toks, kokio tikėjausi.",
+      "english": "This dish is not what I expected.",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Šis patiekalas nėra toks, kokio tikėjausi. Ar galime tai aptarti su padavėju?",
+      "sentenceTranslation": "This dish is not what I expected. Can we discuss this with the waiter?",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galiu gauti šiek tiek pipirų?",
+      "english": "Can I get some pepper?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu gauti šiek tiek pipirų? Mano sriubai trūksta aštrumo.",
+      "sentenceTranslation": "Can I get some pepper? My soup needs a bit more spice.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galėtumėte pašildyti mano patiekalą?",
+      "english": "Could you reheat my dish?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėtumėte pašildyti mano patiekalą? Jis jau yra per šaltas.",
+      "sentenceTranslation": "Could you reheat my dish? It's already too cold.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kokia yra laukimo trukmė šiuo metu?",
+      "english": "What is the current waiting time?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kokia yra laukimo trukmė šiuo metu? Nenorėčiau per ilgai laukti.",
+      "sentenceTranslation": "What is the current waiting time? I wouldn’t want to wait too long.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galėtumėt atnešti daugiau duonos?",
+      "english": "Could you bring more bread?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėtumėt atnešti daugiau duonos? Pirmoji porcija buvo nuostabi.",
+      "sentenceTranslation": "Could you bring more bread? The first portion was amazing.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galima šio patiekalo sudedamųjų dalių keitimas?",
+      "english": "Can the ingredients of this dish be modified?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galima šio patiekalo sudedamųjų dalių keitimas? Noriu mažiau pieno produktų.",
+      "sentenceTranslation": "Can the ingredients of this dish be modified? I want to reduce dairy.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Kur galima rasti tualetą?",
+      "english": "Where can I find the restroom?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kur galima rasti tualetą? Gal galėtumėte parodyti kelią?",
+      "sentenceTranslation": "Where can I find the restroom? Could you show me the way?",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galite patikrinti, ar mano užsakymas paruoštas?",
+      "english": "Could you check if my order is ready?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite patikrinti, ar mano užsakymas paruoštas? Atrodo, jog laukiu ilgai.",
+      "sentenceTranslation": "Could you check if my order is ready? It seems like I've been waiting a while.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Kurioji suma bus pridedama už aptarnavimą?",
+      "english": "Which amount will be added for service?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kurioji suma bus pridedama už aptarnavimą? Noriu žinoti visas galutines išlaidas.",
+      "sentenceTranslation": "Which amount will be added for service? I want to know the final costs.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar siūlote galimybes be laktozės?",
+      "english": "Do you offer lactose-free options?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar siūlote galimybes be laktozės? Man reikia tokio maitinimo dėl sveikatos priežasčių.",
+      "sentenceTranslation": "Do you offer lactose-free options? I need this due to health reasons.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galime gauti dar vieną meniu?",
+      "english": "Can we get another menu?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galime gauti dar vieną meniu? Mes norime pasidalinti jį tarp mūsų.",
+      "sentenceTranslation": "Can we get another menu? We want to share it amongst us.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galite nurodyti, kurie patiekalai yra be riešutų?",
+      "english": "Can you indicate which dishes are nut-free?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite nurodyti, kurie patiekalai yra be riešutų? Pas mus alergiškumų.",
+      "sentenceTranslation": "Can you indicate which dishes are nut-free? Someone in our group has allergies.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar ši kava šviežiai paruošta?",
+      "english": "Is this coffee freshly brewed?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar ši kava šviežiai paruošta? Man svarbu skonio kokybė.",
+      "sentenceTranslation": "Is this coffee freshly brewed? The quality of taste is important to me.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galėtumėt pašalinti svogūnus iš salotų?",
+      "english": "Could you remove onions from the salad?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėtumėt pašalinti svogūnus iš salotų? Man jie netinka.",
+      "sentenceTranslation": "Could you remove onions from the salad? They don't suit me.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar yra speciali žiemos meniu?",
+      "english": "Is there a special winter menu?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar yra speciali žiemos meniu? Noriu išbandyti sezoninį pasiūlymą.",
+      "sentenceTranslation": "Is there a special winter menu? I'd like to try seasonal offerings.",
+      "difficulty": "advanced"
+    },
+        {
+      "lithuanian": "Ar galite patiekti maistą anksčiau už gėrimus?",
+      "english": "Can you serve the food before the drinks?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite patiekti maistą anksčiau už gėrimus? Mes esame labai alkani.",
+      "sentenceTranslation": "Can you serve the food before the drinks? We are very hungry.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galima sėdėti lauke?",
+      "english": "Is it possible to sit outside?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galima sėdėti lauke? Norėtume mėgautis vakaro oru.",
+      "sentenceTranslation": "Is it possible to sit outside? We'd like to enjoy the evening air.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar turite mažiau kaloringų pasirinkimų?",
+      "english": "Do you have low-calorie options?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite mažiau kaloringų pasirinkimų? Siekiu labiau sveikuoliško gyvenimo būdo.",
+      "sentenceTranslation": "Do you have low-calorie options? I'm aiming for a healthier lifestyle.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galime užsisakyti desertą dabar, o ne po vakarienės?",
+      "english": "Can we order dessert now instead of after dinner?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galime užsisakyti desertą dabar, o ne po vakarienės? Esame labai saldžių patiekalų mėgėjai.",
+      "sentenceTranslation": "Can we order dessert now instead of after dinner? We are big fans of sweets.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar turite akcijų ar specialių pasiūlymų šiandien?",
+      "english": "Do you have any deals or special offers today?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar turite akcijų ar specialių pasiūlymų šiandien? Norėtume sutaupyti.",
+      "sentenceTranslation": "Do you have any deals or special offers today? We'd like to save money.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar maistas patiekiamas į namus?",
+      "english": "Is the food available for takeaway?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar maistas patiekiamas į namus? Norėtume jį pasiimti vėliau.",
+      "sentenceTranslation": "Is the food available for takeaway? We’d like to pick it up later.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galite pasiūlyti patiekalą be pridėtinio cukraus?",
+      "english": "Can you suggest a dish with no added sugar?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite pasiūlyti patiekalą be pridėtinio cukraus? Aš stebiu savo cukraus suvartojimą.",
+      "sentenceTranslation": "Can you suggest a dish with no added sugar? I'm monitoring my sugar intake.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Koks yra jūsų darbo laikas savaitgaliais?",
+      "english": "What are your opening hours on weekends?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Koks yra jūsų darbo laikas savaitgaliais? Mes norime atvykti šeštadienio vakarą.",
+      "sentenceTranslation": "What are your opening hours on weekends? We want to visit on Saturday evening.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar yra kas nors be laktozės desertų?",
+      "english": "Are there any lactose-free desserts?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar yra kas nors be laktozės desertų? Man norėtųsi ko nors švelnaus.",
+      "sentenceTranslation": "Are there any lactose-free desserts? I’d like something mild.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galite atskirai patiekti padažą?",
+      "english": "Can you serve the sauce separately?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite atskirai patiekti padažą? Norėčiau pats reguliuoti jo kiekį.",
+      "sentenceTranslation": "Can you serve the sauce separately? I'd like to control the quantity myself.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar šis staliukas yra rezervuotas?",
+      "english": "Is this table reserved?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar šis staliukas yra rezervuotas? Jei ne, mes mielai prie jo sėsime.",
+      "sentenceTranslation": "Is this table reserved? If not, we'd be happy to sit here.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Kaip stipriai jums rekomenduojama šis vynas?",
+      "english": "How strongly do you recommend this wine?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Kaip stipriai jums rekomenduojama šis vynas? Esame smalsūs apie jo skonį.",
+      "sentenceTranslation": "How strongly do you recommend this wine? We are curious about its taste.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galiu gauti sąskaitą su detaliais patiekalų aprašymais?",
+      "english": "Can I get a bill with detailed descriptions of the dishes?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galiu gauti sąskaitą su detaliais patiekalų aprašymais? Noriu stebėti savo išlaidas.",
+      "sentenceTranslation": "Can I get a bill with detailed descriptions of the dishes? I want to monitor my spending.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar stalelis gali būti šalia lango?",
+      "english": "Can the table be next to a window?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar stalelis gali būti šalia lango? Norėtume mėgautis vaizdu.",
+      "sentenceTranslation": "Can the table be next to a window? We'd like to enjoy the view.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galite pasiūlyti rekomendaciją dėl tinkamo garnyro?",
+      "english": "Could you suggest a good side dish?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite pasiūlyti rekomendaciją dėl tinkamo garnyro? Mūsų pagrindiniam patiekalui jo pritrūksta.",
+      "sentenceTranslation": "Could you suggest a good side dish? Our main course could use it.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galite pasakyti, ar šis patiekalas yra populiarus tarp klientų?",
+      "english": "Could you tell me if this dish is popular among customers?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galite pasakyti, ar šis patiekalas yra populiarus tarp klientų? Norime išbandyti kažką mėgstamo.",
+      "sentenceTranslation": "Could you tell me if this dish is popular among customers? We want to try something loved.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar galėtumėte patarti, kuri sriuba tinkamesnė vaikams?",
+      "english": "Could you advise which soup is more suitable for kids?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galėtumėte patarti, kuri sriuba tinkamesnė vaikams? Ieškome mažiau aštraus varianto.",
+      "sentenceTranslation": "Could you advise which soup is more suitable for kids? We are looking for a less spicy option.",
+      "difficulty": "advanced"
+    },
+    {
+      "lithuanian": "Ar galima pasidalinti vieną patiekalą su dviem žmonėmis?",
+      "english": "Is it possible to share a single dish between two people?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galima pasidalinti vieną patiekalą su dviem žmonėmis? Jis atrodo labai didelis.",
+      "sentenceTranslation": "Is it possible to share a single dish between two people? It looks very large.",
+      "difficulty": "intermediate"
+    },
+    {
+      "lithuanian": "Ar šis restoranas siūlo pietų rinkinį?",
+      "english": "Does this restaurant offer a lunch combo?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar šis restoranas siūlo pietų rinkinį? Mes norėtume šiek tiek sutaupyti.",
+      "sentenceTranslation": "Does this restaurant offer a lunch combo? We'd like to save a bit.",
+      "difficulty": "beginner"
+    },
+    {
+      "lithuanian": "Ar galime rezervuoti staliuką vakarienei?",
+      "english": "Can we make a reservation for dinner?",
+      "partOfSpeech": "phrase",
+      "exampleSentence": "Ar galime rezervuoti staliuką vakarienei? Mums reikia stalo ketvirtadieniui 19 val.",
+      "sentenceTranslation": "Can we make a reservation for dinner? We need a table for Thursday at 7 PM.",
+      "difficulty": "beginner"
+    }
+  ]
+}
