@@ -7,6 +7,7 @@ pnpm-debug.log*
 
 # Optional npm cache directory
 .npm
+package-lock.json
 
 # TernJS port file
 .tern-port
